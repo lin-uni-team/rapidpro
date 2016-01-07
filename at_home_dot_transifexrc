@@ -1,0 +1,12 @@
+[https://www.transifex.com/testing101/testing101/]
+hostname = https://www.transifex.com/testing101/testing101/
+password = LinagoraUnicef2015
+token = 
+username = linagora.transifex
+
+[https://www.transifex.com/rapidpro/rapidpro/]
+hostname = https://www.transifex.com/rapidpro/rapidpro/
+password = LinagoraUnicef2015
+token = 
+username = linagora.unicef
+
