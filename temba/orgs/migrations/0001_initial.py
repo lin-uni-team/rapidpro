@@ -78,7 +78,7 @@ class Migration(migrations.Migration):
                 ('plan', models.CharField(default='FREE', help_text='What plan your organization is on', max_length=16, verbose_name='Plan', choices=[('FREE', 'Free Plan'), ('TRIAL', 'Trial'), ('TIER_39', 'Bronze'), ('TIER1', 'Silver'), ('TIER2', 'Gold (Legacy)'), ('TIER3', 'Platinum (Legacy)'), ('TIER_249', 'Gold'), ('TIER_449', 'Platinum')])),
                 ('plan_start', models.DateTimeField(help_text='When the user switched to this plan', verbose_name='Plan Start', auto_now_add=True)),
                 ('stripe_customer', models.CharField(help_text='Our Stripe customer id for your organization', max_length=32, null=True, verbose_name='Stripe Customer', blank=True)),
-                ('language', models.CharField(choices=[(b'en-us', b'English'), (b'pt-br', b'Portuguese'), (b'fr', b'French'), (b'es', b'Spanish')], max_length=64, blank=True, help_text='The main language used by this organization', null=True, verbose_name='Language')),
+                ('language', models.CharField(choices=[(b'en-us', b'English'), (b'pt-br', b'Portuguese'), (b'fr', b'French'), (b'es', b'Spanish'), (b'vi', b'Vietnamese')], max_length=64, blank=True, help_text='The main language used by this organization', null=True, verbose_name='Language')),
                 ('timezone', models.CharField(max_length=64, verbose_name='Timezone')),
                 ('date_format', models.CharField(default='D', help_text='Whether day comes first or month comes first in dates', max_length=1, verbose_name='Date Format', choices=[('D', 'DD-MM-YYYY'), ('M', 'MM-DD-YYYY')])),
                 ('webhook', models.CharField(max_length=255, null=True, verbose_name='Webhook', blank=True)),
@@ -126,7 +126,7 @@ class Migration(migrations.Migration):
             name='UserSettings',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('language', models.CharField(default='en-us', help_text='Your preferred language', max_length=8, choices=[(b'en-us', b'English'), (b'pt-br', b'Portuguese'), (b'fr', b'French'), (b'es', b'Spanish')])),
+                ('language', models.CharField(default='en-us', help_text='Your preferred language', max_length=8, choices=[(b'en-us', b'English'), (b'pt-br', b'Portuguese'), (b'fr', b'French'), (b'es', b'Spanish'), (b'vi', b'Vietnamese')])),
                 ('tel', models.CharField(help_text='Phone number for testing and recording voice flows', max_length=16, null=True, verbose_name='Phone Number', blank=True)),
                 ('user', models.ForeignKey(related_name='settings', to=settings.AUTH_USER_MODEL)),
             ],

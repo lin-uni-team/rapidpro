@@ -57,16 +57,19 @@ STORAGE_ROOT_DIR = 'test_orgs' if TESTING else 'orgs'
 # system time zone
 #-----------------------------------------------------------------------------------
 USE_TZ = True
-TIME_ZONE = 'GMT'
-USER_TIME_ZONE = 'Africa/Kigali'
+#TIME_ZONE = 'GMT'
+#USER_TIME_ZONE = 'Africa/Kigali'
+TIME_ZONE = 'Asia/Ho_Chi_Minh'
+USER_TIME_ZONE = 'Asia/Ho_Chi_Minh'
 
 MODELTRANSLATION_TRANSLATION_REGISTRY = "translation"
 
 #-----------------------------------------------------------------------------------
 # Default language used for this installation
 #-----------------------------------------------------------------------------------
-LANGUAGE_CODE = 'en-us'
-
+#LANGUAGE_CODE = 'en-us'
+# tmh
+LANGUAGE_CODE = 'vi'
 #-----------------------------------------------------------------------------------
 # Available languages for translation
 #-----------------------------------------------------------------------------------
@@ -75,10 +78,14 @@ LANGUAGES = (
     ('en-us', gettext("English")),
     ('pt-br', gettext("Portuguese")),
     ('fr', gettext("French")),
-    ('es', gettext("Spanish")))
+    ('es', gettext("Spanish")),
+    ('vi', gettext("Vietnamese")))
 
-DEFAULT_LANGUAGE = "en-us"
-DEFAULT_SMS_LANGUAGE = "en-us"
+# tmh
+#DEFAULT_LANGUAGE = "en-us"
+#DEFAULT_SMS_LANGUAGE = "en-us"
+DEFAULT_LANGUAGE = "vi"
+DEFAULT_SMS_LANGUAGE = "vi"
 
 SITE_ID = 1
 
