@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Brian Cotter <brian_d_cotter@yahoo.com>, 2015
 # Tom Tran <webtom.me@gmail.com>, 2015
@@ -10,256 +10,203 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RapidPro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-07 13:41+0000\n"
+"POT-Creation-Date: 2016-01-09 16:31+0700\n"
 "PO-Revision-Date: 2015-10-23 14:10+0000\n"
 "Last-Translator: Tom Tran <webtom.me@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/rapidpro/rapidpro/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/rapidpro/rapidpro/"
+"language/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: sitestatic/coffee/analytics.js:139
-msgid "Add a field"
-msgstr "Thêm một trường"
-
-#: sitestatic/coffee/analytics.js:158
-msgid "Add all "
-msgstr "Thêm tất"
-
-#: sitestatic/coffee/analytics.js:158
-msgid " fields"
-msgstr "các trường"
-
-#: sitestatic/coffee/analytics.js:163
-msgid " contact"
-msgstr "liên lạc"
-
-#: sitestatic/coffee/analytics.js:933 sitestatic/coffee/analytics.js.c:970
-#: sitestatic/coffee/analytics.js:999 sitestatic/coffee/analytics.js.c:1003
-msgid " of "
-msgstr "của"
-
-#: sitestatic/coffee/analytics.js:933 sitestatic/coffee/analytics.js.c:970
-#: sitestatic/coffee/analytics.js:999 sitestatic/coffee/analytics.js.c:1003
-msgid " responses"
-msgstr "phản hồi"
-
-#: sitestatic/coffee/flows.js:464
-msgid "Receiving Messages"
-msgstr "Nhận tin nhắn"
-
-#: sitestatic/coffee/flows.js:467
-msgid "Create Categories"
-msgstr "Tạo các mục"
-
-#: sitestatic/coffee/flows.js:492
-msgid "Hi @contact.name! Can you attend the training session on Saturday?"
-msgstr "Xin chào @contact.name! Bạn có thể tham dự buổi đào tạo vào thứ 7 không?"
-
-#: sitestatic/coffee/flows.js:508
-msgid "Rule Variable"
-msgstr "Biến luật"
-
-#: sitestatic/coffee/flows.js:566
-msgid "Call Webhook"
-msgstr "Gọi Webhook"
-
-#: sitestatic/coffee/flows.js:948 sitestatic/coffee/flows.js.c:959
-msgid "Note Title"
-msgstr "Tiêu đề ghi chú"
-
-#: sitestatic/coffee/flows.js:1316 sitestatic/coffee/flows.js.c:3423
-msgid "Remove"
-msgstr "Gỡ bỏ"
-
-#: sitestatic/coffee/flows.js:1316 sitestatic/coffee/flows.js.c:3423
-msgid "Are you sure you want to remove this connection?"
-msgstr "Bạn có chắc muốn bỏ kết nối này không?"
-
-#: sitestatic/coffee/flows.js:1355 sitestatic/coffee/flows.js.c:1356
-#: sitestatic/coffee/flows.js:2198 sitestatic/coffee/flows.js.c:2199
-msgid "Message text"
-msgstr "Tin nhắn văn bản"
-
-#: sitestatic/coffee/flows.js:1577
-msgid "All Responses"
-msgstr "Tất cả các phản hồi"
-
-#: sitestatic/coffee/flows.js:1599 sitestatic/coffee/flows.js.c:1602
-msgid "Response"
-msgstr "Phản hồi"
-
-#: sitestatic/coffee/flows.js:1633
-msgid "Webhook variables"
-msgstr "Các biến Webhook"
-
-#: sitestatic/coffee/flows.js:1642
-msgid "Category"
-msgstr "Hạng mục"
-
-#: sitestatic/coffee/flows.js:1643
-msgid "Text"
-msgstr "Văn bản"
-
-#: sitestatic/coffee/flows.js:1644
-msgid "Time"
-msgstr "Thời gian"
-
-#: sitestatic/coffee/flows.js:1653 sitestatic/coffee/flows.js.c:3602
-msgid "Receive SMS"
-msgstr "Nhận SMS"
-
-#: sitestatic/coffee/flows.js:2054
-msgid "Action"
-msgstr "Thao tác"
-
-#: sitestatic/coffee/flows.js:2058
-msgid "When somebody arrives at this point in your flow"
-msgstr "Khi ai đó đến điểm này trong luồng của bạn"
-
-#: sitestatic/coffee/flows.js:2206
-msgid "All flow variables"
-msgstr "Các biến luồng"
-
-#: sitestatic/coffee/flows.js:2250 sitestatic/coffee/flows.js.c:3607
-msgid "Webhook"
-msgstr "Webhook"
-
-#: sitestatic/coffee/flows.js:2305
-msgid "Click to set Webhook URL"
-msgstr "Nhấn chuột để thiết lập Webhook URL"
-
-#: sitestatic/coffee/flows.js:2353 sitestatic/coffee/flows.js.c:2721
-msgid "Send SMS"
-msgstr "gửi tin nhắn SMS"
-
-#: sitestatic/coffee/flows.js:2526
-msgid "Add to Group"
-msgstr "Thêm vào nhóm"
-
-#: sitestatic/coffee/flows.js:2668
-msgid "Remove from Group"
-msgstr "Loại bỏ khỏi nhóm"
-
-#: sitestatic/coffee/flows.js:2780
-msgid "Play Message"
-msgstr "Chạy tin nhắn"
-
-#: sitestatic/coffee/flows.js:2895
-msgid "Start Another Flow"
-msgstr "Bắt đầu một luồng khác"
-
-#: sitestatic/coffee/flows.js:2953
-msgid "Place Somebody Else in a Flow"
-msgstr "đặt ai đó vào luồng"
-
-#: sitestatic/coffee/flows.js:3122
-msgid "Update Contact"
-msgstr "Cập nhật liên lạc"
-
-#: sitestatic/coffee/flows.js:3165 sitestatic/coffee/flows.js.c:3191
-msgid "Add new variable"
-msgstr "Thêm một biến mới"
-
-#: sitestatic/coffee/flows.js:3225
-msgid "Contact Field"
-msgstr "Trường liên lạc"
-
-#: sitestatic/coffee/flows.js:3271
-msgid "Send Email"
-msgstr "gửi email"
-
-#: sitestatic/coffee/flows.js:3303
-msgid "Enter a valid e-mail address"
-msgstr "Nhập vào một địa chỉ email hợp lệ"
-
-#: sitestatic/coffee/flows.js:3971 sitestatic/coffee/flows.js.c:3976
-msgid "is not a valid number"
-msgstr "không phải là số hợp lệ"
-
-#: sitestatic/coffee/flows.js:3982 sitestatic/coffee/flows.js.c:4058
-msgid "The second number"
-msgstr "số thứ hai"
-
-#: sitestatic/coffee/flows.js:3982 sitestatic/coffee/flows.js.c:4058
-msgid "should be larger than the first one"
-msgstr "phải lớn hơn số đầu tiên"
-
-#: sitestatic/coffee/flows.js:4047 sitestatic/coffee/flows.js.c:4053
-msgid "is not a number"
-msgstr "không phải là một số"
-
-#: sitestatic/coffee/flows.js:4073
-msgid "Variable name can only contains alphanumeric characters"
-msgstr "Tên biến chỉ có thể chứa ký tự và số"
-
-#: sitestatic/coffee/flows.js:4170
-msgid "End of Branch"
-msgstr "Kết thúc nhánh"
-
-#: sitestatic/coffee/flows.js:4170
-msgid "You must first add a response to this branch in order to extend it."
-msgstr "Bạn phải thêm một phản hồi vào nhánh này để có thể mở rộng nó"
-
-#: sitestatic/coffee/flows.js:4171
-msgid "Add Response"
-msgstr "Thêm phản hồi"
-
-#: sitestatic/coffee/flows.js:4396
-msgid ""
-"Enter the message to read out to the contact when they answer the phone."
-msgstr "Nhập tin nhắn để đọc ra liên lạc khi họ trả lời điện thoại"
-
-#: sitestatic/coffee/flows.js:4397
-msgid "Hi @contact.name, do you have a moment to participate in a short poll?"
-msgstr "Chào @contact.name, bạn có thời gian để tham gia một khảo sát ngắn không?"
-
-#: sitestatic/coffee/flows.js:4400
-msgid "To get your flow started, you need to send a message."
-msgstr "Để luồng của bạn bắt đầu, bạn cần phải gửi một tin nhắn."
-
-#: sitestatic/coffee/flows.js:4400
-msgid "Click here to create the first message in your flow."
-msgstr "Nhấn vào đây để tạo tin nhắn đầu tiên trong luồng của bạn."
-
-#: sitestatic/coffee/flows.js:4401
-msgid "Hi @contact.name! Will you be able to attend the training on Saturday?"
-msgstr "Chào @contact.name! Bạn có thể tham gia buổi đào tạo vào thứ Bảy sắp tới không?"
-
-#: sitestatic/coffee/flows.js:4484
-msgid "Archived Survey"
-msgstr "Kho khảo sát "
-
-#: sitestatic/coffee/flows.js:4484
-msgid "This Survey is Archived."
-msgstr "Khảo sát đã được lưu trữ."
-
-#: sitestatic/coffee/flows.js:4484
-msgid "You cannot broadcast to an archived survey"
-msgstr "Bạn không thể truyền đi một khảo sát đã được lưu trữ"
-
-#: sitestatic/coffee/formax.js:97
-msgid "Save"
-msgstr "lưu"
-
-#: sitestatic/coffee/textit.js:287
-msgid "Ok"
-msgstr "Ok"
-
-#: sitestatic/coffee/textit.js:442
-msgid "Processing.."
-msgstr "xử lí dữ liệu"
-
-#: sitestatic/js/omnibox.js:25 sitestatic/js/omnibox.js.c:104
-msgid "Recipients, enter contacts or groups"
-msgstr "Những người nhận, nhập liên lạc hoặc các nhóm"
-
-#: sitestatic/js/omnibox.js:27
+#: static/js/omnibox.js:30
 msgid "Enter one or more contact groups"
 msgstr "Nhập một hay nhiều nhóm liên hệ "
 
-#: sitestatic/js/omnibox.js:98
+#: static/js/omnibox.js:33 static/js/omnibox.js:106
+msgid "Recipients, enter contacts or groups"
+msgstr "Những người nhận, nhập liên lạc hoặc các nhóm"
+
+#: static/js/omnibox.js:138
 msgid "Send Message"
 msgstr "gửi nhắn tin"
+
+#~ msgid "Add a field"
+#~ msgstr "Thêm một trường"
+
+#~ msgid "Add all "
+#~ msgstr "Thêm tất"
+
+#~ msgid " fields"
+#~ msgstr "các trường"
+
+#~ msgid " contact"
+#~ msgstr "liên lạc"
+
+#~ msgid " of "
+#~ msgstr "của"
+
+#~ msgid " responses"
+#~ msgstr "phản hồi"
+
+#~ msgid "Receiving Messages"
+#~ msgstr "Nhận tin nhắn"
+
+#~ msgid "Create Categories"
+#~ msgstr "Tạo các mục"
+
+#~ msgid "Hi @contact.name! Can you attend the training session on Saturday?"
+#~ msgstr ""
+#~ "Xin chào @contact.name! Bạn có thể tham dự buổi đào tạo vào thứ 7 không?"
+
+#~ msgid "Rule Variable"
+#~ msgstr "Biến luật"
+
+#~ msgid "Call Webhook"
+#~ msgstr "Gọi Webhook"
+
+#~ msgid "Note Title"
+#~ msgstr "Tiêu đề ghi chú"
+
+#~ msgid "Remove"
+#~ msgstr "Gỡ bỏ"
+
+#~ msgid "Are you sure you want to remove this connection?"
+#~ msgstr "Bạn có chắc muốn bỏ kết nối này không?"
+
+#~ msgid "Message text"
+#~ msgstr "Tin nhắn văn bản"
+
+#~ msgid "All Responses"
+#~ msgstr "Tất cả các phản hồi"
+
+#~ msgid "Response"
+#~ msgstr "Phản hồi"
+
+#~ msgid "Webhook variables"
+#~ msgstr "Các biến Webhook"
+
+#~ msgid "Category"
+#~ msgstr "Hạng mục"
+
+#~ msgid "Text"
+#~ msgstr "Văn bản"
+
+#~ msgid "Time"
+#~ msgstr "Thời gian"
+
+#~ msgid "Receive SMS"
+#~ msgstr "Nhận SMS"
+
+#~ msgid "Action"
+#~ msgstr "Thao tác"
+
+#~ msgid "When somebody arrives at this point in your flow"
+#~ msgstr "Khi ai đó đến điểm này trong luồng của bạn"
+
+#~ msgid "All flow variables"
+#~ msgstr "Các biến luồng"
+
+#~ msgid "Webhook"
+#~ msgstr "Webhook"
+
+#~ msgid "Click to set Webhook URL"
+#~ msgstr "Nhấn chuột để thiết lập Webhook URL"
+
+#~ msgid "Send SMS"
+#~ msgstr "gửi tin nhắn SMS"
+
+#~ msgid "Add to Group"
+#~ msgstr "Thêm vào nhóm"
+
+#~ msgid "Remove from Group"
+#~ msgstr "Loại bỏ khỏi nhóm"
+
+#~ msgid "Play Message"
+#~ msgstr "Chạy tin nhắn"
+
+#~ msgid "Start Another Flow"
+#~ msgstr "Bắt đầu một luồng khác"
+
+#~ msgid "Place Somebody Else in a Flow"
+#~ msgstr "đặt ai đó vào luồng"
+
+#~ msgid "Update Contact"
+#~ msgstr "Cập nhật liên lạc"
+
+#~ msgid "Add new variable"
+#~ msgstr "Thêm một biến mới"
+
+#~ msgid "Contact Field"
+#~ msgstr "Trường liên lạc"
+
+#~ msgid "Send Email"
+#~ msgstr "gửi email"
+
+#~ msgid "Enter a valid e-mail address"
+#~ msgstr "Nhập vào một địa chỉ email hợp lệ"
+
+#~ msgid "is not a valid number"
+#~ msgstr "không phải là số hợp lệ"
+
+#~ msgid "The second number"
+#~ msgstr "số thứ hai"
+
+#~ msgid "should be larger than the first one"
+#~ msgstr "phải lớn hơn số đầu tiên"
+
+#~ msgid "is not a number"
+#~ msgstr "không phải là một số"
+
+#~ msgid "Variable name can only contains alphanumeric characters"
+#~ msgstr "Tên biến chỉ có thể chứa ký tự và số"
+
+#~ msgid "End of Branch"
+#~ msgstr "Kết thúc nhánh"
+
+#~ msgid "You must first add a response to this branch in order to extend it."
+#~ msgstr "Bạn phải thêm một phản hồi vào nhánh này để có thể mở rộng nó"
+
+#~ msgid "Add Response"
+#~ msgstr "Thêm phản hồi"
+
+#~ msgid ""
+#~ "Enter the message to read out to the contact when they answer the phone."
+#~ msgstr "Nhập tin nhắn để đọc ra liên lạc khi họ trả lời điện thoại"
+
+#~ msgid ""
+#~ "Hi @contact.name, do you have a moment to participate in a short poll?"
+#~ msgstr ""
+#~ "Chào @contact.name, bạn có thời gian để tham gia một khảo sát ngắn không?"
+
+#~ msgid "To get your flow started, you need to send a message."
+#~ msgstr "Để luồng của bạn bắt đầu, bạn cần phải gửi một tin nhắn."
+
+#~ msgid "Click here to create the first message in your flow."
+#~ msgstr "Nhấn vào đây để tạo tin nhắn đầu tiên trong luồng của bạn."
+
+#~ msgid ""
+#~ "Hi @contact.name! Will you be able to attend the training on Saturday?"
+#~ msgstr ""
+#~ "Chào @contact.name! Bạn có thể tham gia buổi đào tạo vào thứ Bảy sắp tới "
+#~ "không?"
+
+#~ msgid "Archived Survey"
+#~ msgstr "Kho khảo sát "
+
+#~ msgid "This Survey is Archived."
+#~ msgstr "Khảo sát đã được lưu trữ."
+
+#~ msgid "You cannot broadcast to an archived survey"
+#~ msgstr "Bạn không thể truyền đi một khảo sát đã được lưu trữ"
+
+#~ msgid "Save"
+#~ msgstr "lưu"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Processing.."
+#~ msgstr "xử lí dữ liệu"

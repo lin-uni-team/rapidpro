@@ -1,0 +1,4285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Brian Cotter <brian_d_cotter@yahoo.com>, 2015
+# Dang Thi My Hoa <usaflower.88@gmail.com>, 2015
+# Han Nguyen <maihan26@gmail.com>, 2015
+# Nguyen Quang Thang <quangthang.fami53@gmail.com>, 2015
+# phu nguyen <phu.nguyen.upi@gmail.com>, 2015
+# Tuan Tran <tuan.nick91@gmail.com>, 2015
+# Võ Trần Chấn Hưng <chanhung34@gmail.com>, 2015
+# Vũ Đắc Hoàng Ân <anvudh@gmail.com>, 2015
+# Vu Thu Van <vanvt88@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: RapidPro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-26 07:53+0700\n"
+"PO-Revision-Date: 2015-11-20 11:33+0000\n"
+"Last-Translator: Vũ Đắc Hoàng Ân <anvudh@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/rapidpro/rapidpro/"
+"language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: temba/api/serializers.py:420
+#, fuzzy, python-format
+#| msgid "Used by another contact"
+msgid "URNs %s are used by multiple contacts"
+msgstr "Đã dùng bởi liên lạc khác"
+
+#: temba/api/serializers.py:425
+#, fuzzy, python-format
+#| msgid "Used by another contact"
+msgid "URNs %s are used by other contacts"
+msgstr "Đã dùng bởi liên lạc khác"
+
+#: temba/api/serializers.py:505
+#, fuzzy, python-format
+#| msgid "Invalid group or contact id"
+msgid "Invalid group name: '%s'"
+msgstr "Nhóm hoặc Tài khoản liên lạc không khả dụng"
+
+#: temba/api/serializers.py:518 temba/api/serializers.py:1227
+#: temba/api/serializers.py:1595
+#, fuzzy, python-format
+#| msgid "Unable to find contact with uuid: %s"
+msgid "Unable to find contact group with uuid: %s"
+msgstr "Không tìm thấy liên lạc với uuid: %s"
+
+#: temba/api/serializers.py:621
+#, python-format
+msgid "Generated key for '%s' is invalid or a reserved name"
+msgstr ""
+
+#: temba/api/serializers.py:891
+#, python-format
+msgid "Cannot create contact field with key '%s'"
+msgstr ""
+
+#: temba/api/serializers.py:1241 temba/api/serializers.py:1255
+#: temba/api/serializers.py:1400 temba/api/serializers.py:1584
+#: temba/api/serializers.py:1674
+#, python-format
+msgid "Unable to find contact with uuid: %s"
+msgstr "Không tìm thấy liên lạc với uuid: %s"
+
+#: temba/assets/views.py:62
+msgid "File not found"
+msgstr ""
+
+#: temba/assets/views.py:64
+#, fuzzy
+#| msgid "Sorry you have no permission for this action."
+msgid "You do not have permission to access this file"
+msgstr "Xin lỗi bạn không có quyền cho hành động này"
+
+#: temba/campaigns/models.py:27 temba/campaigns/models.py:238
+#: temba/utils/models.py:15
+msgid "Unique Identifier"
+msgstr "Mã nhận dạng."
+
+#: temba/campaigns/models.py:27 temba/campaigns/models.py:238
+#: temba/utils/models.py:15
+#, fuzzy
+#| msgid "The unique identifier for this contact."
+msgid "The unique identifier for this object"
+msgstr "Các định danh duy nhất cho liên hệ này."
+
+#: temba/campaigns/models.py:63 temba/triggers/models.py:92
+#, python-format
+msgid "Unknown version (%s)"
+msgstr "Phiên bản không xác định (%s)"
+
+#: temba/channels/models.py:72
+msgid "Default Encoding"
+msgstr ""
+
+#: temba/channels/models.py:73
+msgid "Smart Encoding"
+msgstr ""
+
+#: temba/channels/models.py:74
+msgid "Unicode Encoding"
+msgstr ""
+
+#: temba/channels/models.py:148
+msgid "Channel Type"
+msgstr "Loại kênh"
+
+#: temba/channels/models.py:149
+msgid "Type of this channel, whether Android, Twilio or SMSC"
+msgstr "Loại kênh này là Android, Twilio hay SMSC"
+
+#: temba/channels/models.py:151 temba/contacts/models.py:164
+#: temba/contacts/models.py:1400 temba/msgs/models.py:1551
+#: temba/msgs/views.py:837 temba/orgs/models.py:140 temba/public/models.py:12
+msgid "Name"
+msgstr "Tên"
+
+#: temba/channels/models.py:152
+msgid "Descriptive label for this channel"
+msgstr "Nhãn mô tả cho kênh này"
+
+#: temba/channels/models.py:154
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: temba/channels/models.py:155
+msgid "Address with which this channel communicates"
+msgstr "Địa chỉ liên hệ qua kênh này"
+
+#: temba/channels/models.py:157
+msgid "Country"
+msgstr "Quốc gia"
+
+#: temba/channels/models.py:158
+msgid "Country which this channel is for"
+msgstr "Kênh này dành cho Quốc gia"
+
+#: temba/channels/models.py:160 temba/contacts/models.py:49
+#: temba/contacts/models.py:167 temba/contacts/models.py:1412
+#: temba/msgs/models.py:161 temba/msgs/models.py:534 temba/msgs/models.py:1384
+#: temba/orgs/models.py:1417 temba/orgs/models.py:1458
+#: temba/triggers/models.py:35
+msgid "Org"
+msgstr "Tổ chức"
+
+#: temba/channels/models.py:161
+msgid "Organization using this channel"
+msgstr "Tổ chức đang sử dụng kênh này"
+
+#: temba/channels/models.py:163
+msgid "GCM ID"
+msgstr "GCM ID"
+
+#: temba/channels/models.py:164
+msgid "The registration id for using Google Cloud Messaging"
+msgstr "Tài khoản đăng ký sử dụng Google Cloud Messaging"
+
+#: temba/channels/models.py:166
+msgid "UUID"
+msgstr "UUID"
+
+#: temba/channels/models.py:167
+msgid "UUID for this channel"
+msgstr "UUID cho kênh này"
+
+#: temba/channels/models.py:169
+msgid "Claim Code"
+msgstr "Mã xác nhận"
+
+#: temba/channels/models.py:170
+msgid "The token the user will us to claim this channel"
+msgstr "Mã mà người dùng sẽ sử dụng để xác nhận kênh này"
+
+#: temba/channels/models.py:172 temba/orgs/models.py:1463
+msgid "Secret"
+msgstr "Bí mật"
+
+#: temba/channels/models.py:173
+msgid "The secret token this channel should use when signing requests"
+msgstr "Mã bí mật kênh này sử dụng khi xác nhận yêu cầu"
+
+#: temba/channels/models.py:175
+msgid "Last Seen"
+msgstr "Thấy lần cuối"
+
+#: temba/channels/models.py:176
+msgid "The last time this channel contacted the server"
+msgstr "Lần cuối kênh này liên lạc với server"
+
+#: temba/channels/models.py:178
+msgid "Device"
+msgstr "Thiết bị"
+
+#: temba/channels/models.py:179
+msgid "The type of Android device this channel is running on"
+msgstr "Loại thiết bị Android mà kênh này đang chạy"
+
+#: temba/channels/models.py:181
+msgid "OS"
+msgstr "OS"
+
+#: temba/channels/models.py:182
+msgid "What Android OS version this channel is running on"
+msgstr "Kênh này chạy trên phiên bản hệ điều hành Android nào"
+
+#: temba/channels/models.py:184
+msgid "Alert Email"
+msgstr "Email cảnh báo"
+
+#: temba/channels/models.py:185
+msgid ""
+"We will send email alerts to this address if experiencing issues sending"
+msgstr ""
+"Chúng tôi sẽ gửi email cảnh báo tới địa chỉ này nếu xảy ra sự cố khi gửi"
+
+#: temba/channels/models.py:187
+msgid "Config"
+msgstr "Cấu hình"
+
+#: temba/channels/models.py:188
+msgid "Any channel specific configuration, used for the various aggregators"
+msgstr "Bất kỳ cấu hình cụ thể của kênh, sử dụng cho các bộ tổng hợp"
+
+#: temba/channels/models.py:191
+#, fuzzy
+#| msgid "The roles this channel can fulfill"
+msgid "The URN scheme this channel can handle"
+msgstr "Vai trò của kênh"
+
+#: temba/channels/models.py:194
+msgid "The roles this channel can fulfill"
+msgstr "Vai trò của kênh"
+
+#: temba/channels/models.py:197
+msgid "The channel this channel is working on behalf of"
+msgstr "Kênh mà kênh này đang làm việc dưới danh nghĩa"
+
+#: temba/channels/models.py:199
+msgid "Optional Data"
+msgstr ""
+
+#: temba/channels/models.py:200
+msgid "Any channel specific state data"
+msgstr ""
+
+#: temba/channels/models.py:295 temba/channels/models.py:350
+msgid ""
+"There was a problem claiming that number, please check the balance on your "
+"account."
+msgstr ""
+"Đã xảy ra một vấn để khi xác nhận số này, hãy kiểm tra số dư tài khoản của "
+"bạn."
+
+#: temba/channels/models.py:303
+#, fuzzy
+#| msgid ""
+#| "There was a problem claiming that number, please check the balance on "
+#| "your account."
+msgid "There was a problem updating that number, please try again."
+msgstr ""
+"Đã xảy ra một vấn để khi xác nhận số này, hãy kiểm tra số dư tài khoản của "
+"bạn."
+
+#: temba/channels/models.py:335
+msgid ""
+"There was a problem claiming that number, please check the balance on your "
+"account. Note that you can only claim numbers after adding credit to your "
+"Nexmo account."
+msgstr ""
+"Đã có vấn đề trong việc xác nhận số này, hãy kiểm tra số dư tài khoản. Chú ý "
+"rằng bạn chỉ có thể xác nhận những con số sau khi thêm tiền vào tài khoản "
+"Nexmo của bạn"
+
+#: temba/channels/models.py:381
+msgid ""
+"Your Twilio account is no longer connected. First remove your Twilio "
+"account, reconnect it and try again."
+msgstr ""
+"Tài khoản Twilio của bạn không còn được kết nối. Đầu tiên hãy xóa tài khoản "
+"Twilio, thử kết nối lại và thử lại."
+
+#: temba/channels/models.py:401
+msgid ""
+"Short code not found on your Twilio Account. Please check you own the short "
+"code and Try again"
+msgstr ""
+
+#: temba/channels/models.py:569 temba/channels/models.py:575
+msgid "Android Phone"
+msgstr "Điện thoại Android"
+
+#: temba/channels/models.py:577
+#, python-format
+msgid "%s Channel"
+msgstr "%s Kênh"
+
+#: temba/channels/models.py:1887
+msgid "Message no longer has a way of being sent, marking as failed."
+msgstr "Tin nhắn chưa được gửi, xem như không thành công."
+
+#: temba/channels/models.py:1957
+#, python-format
+msgid "Unknown channel type: %(channel)s"
+msgstr "Loại kênh không xác định: %(channel)s"
+
+#: temba/channels/models.py:2056
+#, fuzzy
+#| msgid "Inbox Message"
+msgid "Incoming Message"
+msgstr "Tin nhắn đến"
+
+#: temba/channels/models.py:2057
+#, fuzzy
+#| msgid "Failed Outgoing Messages"
+msgid "Outgoing Message"
+msgstr "Các tin nhắn đi không thành công"
+
+#: temba/channels/models.py:2058
+#, fuzzy
+#| msgid "Incoming"
+msgid "Incoming Voice"
+msgstr "Đang đến"
+
+#: temba/channels/models.py:2059
+#, fuzzy
+#| msgid "Outgoing"
+msgid "Outgoing Voice"
+msgstr "Đi"
+
+#: temba/channels/models.py:2060
+msgid "Success Log Record"
+msgstr ""
+
+#: temba/channels/models.py:2061
+msgid "Error Log Record"
+msgstr ""
+
+#: temba/channels/models.py:2064
+#, fuzzy
+#| msgid "The channel that this alert is for"
+msgid "The channel this is a daily summary count for"
+msgstr "Báo động này dành cho kênh"
+
+#: temba/channels/models.py:2066
+#, fuzzy
+#| msgid "What type of label this is"
+msgid "What type of message this row is counting"
+msgstr "Loại nhãn này là gì"
+
+#: temba/channels/models.py:2067
+#, fuzzy
+#| msgid "The channel that this alert is for"
+msgid "The day this count is for"
+msgstr "Báo động này dành cho kênh"
+
+#: temba/channels/models.py:2069
+#, fuzzy
+#| msgid "The number of messages on the channel in RETRY state"
+msgid "The count of messages on this day and type"
+msgstr "Số lượng tin nhắn đang ở trong trạng thái chờ thử gửi lại"
+
+#: temba/channels/models.py:2100
+#, fuzzy
+#| msgid "When this message was sent to the endpoint"
+msgid "The channel the message was sent on"
+msgstr "Khi tin nhắn này được gửi đến điểm cuối"
+
+#: temba/channels/models.py:2102
+#, fuzzy
+#| msgid "The actual message content that was sent"
+msgid "The message that was sent"
+msgstr "Nội dung tin nhắn thật sự được gửi"
+
+#: temba/channels/models.py:2104
+#, fuzzy
+#| msgid "The current status for this message"
+msgid "A description of the status of this message send"
+msgstr "Trạng thái hiện tại cho tin nhắn này"
+
+#: temba/channels/models.py:2106
+msgid "Whether an error was encountered when sending the message"
+msgstr ""
+
+#: temba/channels/models.py:2108
+#, fuzzy
+#| msgid "The groups to send the message to"
+msgid "The URL used when sending the message"
+msgstr "Các nhóm được gửi tin nhắn"
+
+#: temba/channels/models.py:2110
+#, fuzzy
+#| msgid "What HTTP method to use when calling the URL"
+msgid "The HTTP method used when sending the message"
+msgstr "Phương thức HTTP nào được sử dụng khi gọi đường dẫn"
+
+#: temba/channels/models.py:2112
+#, fuzzy
+#| msgid "The URN of the contact delivering this message"
+msgid "The body of the request used when sending the message"
+msgstr "URN của liên lạc phát tin nhắn này"
+
+#: temba/channels/models.py:2114
+#, fuzzy
+#| msgid "The URN of the contact delivering this message"
+msgid "The body of the response received when sending the message"
+msgstr "URN của liên lạc phát tin nhắn này"
+
+#: temba/channels/models.py:2116
+#, fuzzy
+#| msgid "The groups to send the message to"
+msgid "The response code received when sending the message"
+msgstr "Các nhóm được gửi tin nhắn"
+
+#: temba/channels/models.py:2118
+#, fuzzy
+#| msgid "When this message was created"
+msgid "When this log message was logged"
+msgstr "Khi tin nhắn này được tạo"
+
+#: temba/channels/models.py:2162 temba/channels/models.py:2251
+#: temba/msgs/models.py:179 temba/msgs/models.py:538 temba/msgs/models.py:1387
+#: temba/triggers/models.py:65 temba/triggers/views.py:227
+msgid "Channel"
+msgstr "Kênh"
+
+#: temba/channels/models.py:2163
+msgid "The channel that synced to the server"
+msgstr "Kênh đã đồng bộ với server"
+
+#: temba/channels/models.py:2164
+msgid "Power Source"
+msgstr "Nguồn"
+
+#: temba/channels/models.py:2165
+msgid "The power source the device is using"
+msgstr "Nguồn năng lượng mà thiết bị đang sử dụng"
+
+#: temba/channels/models.py:2166
+msgid "Power Status"
+msgstr "Trạng thái nguồn"
+
+#: temba/channels/models.py:2167
+msgid "The power status. eg: Charging, Full or Discharging"
+msgstr "Trạng thái nguồn. VD: Sạc, Đầy hoặc Ngừng sạc"
+
+#: temba/channels/models.py:2168
+msgid "Power Level"
+msgstr "Mức năng lượng"
+
+#: temba/channels/models.py:2168
+msgid "The power level of the battery"
+msgstr "Mức năng lượng của Pin"
+
+#: temba/channels/models.py:2169
+msgid "Network Type"
+msgstr "Loại mạng"
+
+#: temba/channels/models.py:2170
+msgid "The data network type to which the channel is connected"
+msgstr "Loại mạng dữ liệu mà kênh được kết nối"
+
+#: temba/channels/models.py:2171
+msgid "Lifetime"
+msgstr "Tuổi thọ"
+
+#: temba/channels/models.py:2172
+msgid "Pending Messages Count"
+msgstr "Số lượng tin nhắn đang chờ"
+
+#: temba/channels/models.py:2173
+msgid "The number of messages on the channel in PENDING state"
+msgstr "Số lượng tin nhắn trên kênh đang ở trong trạng thái chờ"
+
+#: temba/channels/models.py:2174
+msgid "Retry Message Count"
+msgstr "số lần cố gửi tin."
+
+#: temba/channels/models.py:2175
+msgid "The number of messages on the channel in RETRY state"
+msgstr "Số lượng tin nhắn đang ở trong trạng thái chờ thử gửi lại"
+
+#: temba/channels/models.py:2176
+msgid "Incoming Command Count"
+msgstr "Số lượng lệnh đang đến"
+
+#: temba/channels/models.py:2177
+msgid "The number of commands that the channel gave us"
+msgstr "Số lượng lệnh mà kênh đã gửi tới chúng tôi"
+
+#: temba/channels/models.py:2178
+msgid "Outgoing Command Count"
+msgstr "Số lượng lệnh gửi đi"
+
+#: temba/channels/models.py:2179
+msgid "The number of commands that we gave the channel"
+msgstr "Số lượng lệnh mà chúng tôi gửi tới kênh"
+
+#: temba/channels/models.py:2247
+msgid "Power"
+msgstr "Năng lượng"
+
+#: temba/channels/models.py:2248
+msgid "Disconnected"
+msgstr "Ngắt kết nối"
+
+#: temba/channels/models.py:2249
+msgid "SMS"
+msgstr "SMS"
+
+#: temba/channels/models.py:2252
+msgid "The channel that this alert is for"
+msgstr "Báo động này dành cho kênh"
+
+#: temba/channels/models.py:2253
+msgid "Sync Event"
+msgstr "Sự kiện đồng bộ"
+
+#: temba/channels/models.py:2254
+msgid "The sync event that caused this alert to be sent (if any)"
+msgstr "Việc đồng bộ hóa sẽ được gửi thông báo ( nếu có )"
+
+#: temba/channels/models.py:2255
+msgid "Alert Type"
+msgstr "Loại cảnh báo"
+
+#: temba/channels/models.py:2256
+msgid "The type of alert the channel is sending"
+msgstr "Loại cảnh báo mà kênh đang gửi đi"
+
+#: temba/channels/models.py:2257
+msgid "Ended On"
+msgstr "Đã dừng vào"
+
+#: temba/channels/models.py:2259
+msgid "The host this alert was created on"
+msgstr "Cảnh báo này được tạo trên máy chủ"
+
+#: temba/channels/models.py:2394
+#, python-format
+msgid "Unknown alert type: %(alert)s"
+msgstr "Loại cảnh báo không xác định: %(alert)s"
+
+#: temba/contacts/fields.py:52 temba/contacts/fields.py:79
+msgid ""
+"Omnibox requires a user, make sure you set one using field.set_user(user) in "
+"your form.__init__"
+msgstr ""
+"Omnibox yêu cầu có người dùng, đảm bảo rẳng bạn đang dùng  field."
+"set_user(user) trong form.__init__"
+
+#: temba/contacts/models.py:40
+msgid "Phone number"
+msgstr "Số điện thoại"
+
+#: temba/contacts/models.py:41
+msgid "Twitter handle"
+msgstr "Tài khoản Twitter."
+
+#: temba/contacts/models.py:42
+#, fuzzy
+#| msgid "Unique Identifier"
+msgid "External identifier"
+msgstr "Mã nhận dạng."
+
+#: temba/contacts/models.py:51
+msgid "Label"
+msgstr "Nhãn"
+
+#: temba/contacts/models.py:53
+msgid "Key"
+msgstr "Khóa"
+
+#: temba/contacts/models.py:55
+msgid "Is Active"
+msgstr "Đang hoạt động"
+
+#: temba/contacts/models.py:59
+msgid "Shown in Tables"
+msgstr "Hiển thị trong các bảng"
+
+#: temba/contacts/models.py:165
+msgid "The name of this contact"
+msgstr "Tên của liên lạc này"
+
+#: temba/contacts/models.py:168
+msgid "The organization that this contact belongs to"
+msgstr "Liên lạc này thuộc về tổ chức"
+
+#: temba/contacts/models.py:170
+#, fuzzy
+#| msgid "Blocked"
+msgid "Is Blocked"
+msgstr "Đã bị chặn"
+
+#: temba/contacts/models.py:171
+#, fuzzy
+#| msgid "Whether this contacts has been archived"
+msgid "Whether this contact has been blocked"
+msgstr "Liệu rằng những liên hệ này đã được lưu trữ"
+
+#: temba/contacts/models.py:173
+msgid "Is Test"
+msgstr "đó là kiểm thử "
+
+#: temba/contacts/models.py:174
+msgid "Whether this contact is for simulation"
+msgstr "có thể liên hệ này dùng để mô phỏng"
+
+#: temba/contacts/models.py:176
+#, fuzzy
+#| msgid "Failed"
+msgid "Is Failed"
+msgstr "Thất bại"
+
+#: temba/contacts/models.py:177
+#, fuzzy
+#| msgid "The preferred language for this contact"
+msgid "Whether we cannot send messages to this contact"
+msgstr "Ngôn ngữ ưu tiên cho liên lạc này"
+
+#: temba/contacts/models.py:179 temba/contacts/views.py:262
+#: temba/flows/views.py:401 temba/flows/views.py:505 temba/orgs/models.py:161
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: temba/contacts/models.py:180
+msgid "The preferred language for this contact"
+msgstr "Ngôn ngữ ưu tiên cho liên lạc này"
+
+#: temba/contacts/models.py:458
+msgid "URN cannot have empty scheme or path"
+msgstr "URN không "
+
+#: temba/contacts/models.py:468
+msgid "Provided URNs belong to different existing contacts"
+msgstr "Những URN được cấp thuộc những liên hệ có sẵn"
+
+#: temba/contacts/models.py:751
+#, fuzzy, python-format
+#| msgid ""
+#| "The file you provided is missing two required headers called \"Name\" and "
+#| "\"Phone\"."
+msgid ""
+"The file you provided is missing required headers called \"Name\" and one of "
+"\"%s\"."
+msgstr "Tệp bạn cung cấp bị thiếu tiêu đề \"Tên\" và \"Điện thoại\"."
+
+#: temba/contacts/models.py:754
+msgid "The file you provided is missing a required header called \"Name\"."
+msgstr "Tệp bạn cung cấp bị thiếu tiêu đề \"Tên\"."
+
+#: temba/contacts/models.py:756
+#, fuzzy, python-format
+#| msgid "The file you provided is missing a required header called \"Phone\"."
+msgid ""
+"The file you provided is missing a required header. At least one of \"%s\" "
+"should be included."
+msgstr "Tệp bạn cung cấp bị thiếu tiêu đề \"Điện thoại\"."
+
+#: temba/contacts/models.py:1401
+#, fuzzy
+#| msgid "The name for this contact group"
+msgid "The name of this contact group"
+msgstr "Tên của nhóm liên lạc này"
+
+#: temba/contacts/models.py:1404
+msgid ""
+"What type of group it is, either user defined or one of our system groups"
+msgstr ""
+
+#: temba/contacts/models.py:1406 temba/contacts/views.py:642
+#: temba/msgs/models.py:167 temba/triggers/models.py:55
+#: temba/triggers/views.py:189
+msgid "Contacts"
+msgstr "Những liên lạc"
+
+#: temba/contacts/models.py:1409
+#, fuzzy
+#| msgid "Country"
+msgid "Count"
+msgstr "Quốc gia"
+
+#: temba/contacts/models.py:1409
+#, fuzzy
+#| msgid "The number of credits bought in this top up"
+msgid "The number of contacts in this group"
+msgstr "Số lượng tín dụng được mua trong lần bổ sung này"
+
+#: temba/contacts/models.py:1412
+msgid "The organization this group is part of"
+msgstr "Nhóm này thuộc một phần của tổ chức"
+
+#: temba/contacts/models.py:1416
+msgid "The membership query for this group"
+msgstr " truy vấn để phân nhóm."
+
+#: temba/contacts/models.py:1418
+msgid "Query Fields"
+msgstr "Các trường truy vấn."
+
+#: temba/contacts/models.py:1600
+msgid "The Organization of the user."
+msgstr "Tổ chức của người dùng."
+
+#: temba/contacts/models.py:1601
+msgid "The unique group to export"
+msgstr "nhóm thông tin để truy xuất"
+
+#: temba/contacts/models.py:1602 temba/msgs/models.py:1732
+msgid "The host this export task was created on"
+msgstr "Tác vụ truy xuất này được tạo trên máy chủ"
+
+#: temba/contacts/models.py:1605
+#, fuzzy
+#| msgid "Whether this report is currently published"
+msgid "Whether this export has completed"
+msgstr "Bản báo cáo có đang được công bố hay chưa"
+
+#: temba/contacts/models.py:1607 temba/msgs/models.py:1738
+msgid "The uuid used to name the resulting export file"
+msgstr ""
+
+#: temba/contacts/views.py:126
+msgid "All Contacts"
+msgstr "Tất cả liên lạc"
+
+#: temba/contacts/views.py:127 temba/msgs/views.py:120
+msgid "Failed"
+msgstr "Thất bại"
+
+#: temba/contacts/views.py:128
+msgid "Blocked"
+msgstr "Đã bị chặn"
+
+#: temba/contacts/views.py:147
+msgid "Add to Group"
+msgstr "Thêm vào nhóm"
+
+#: temba/contacts/views.py:148
+msgid "Remove from Group"
+msgstr "Loại bỏ khỏi nhóm"
+
+#: temba/contacts/views.py:149
+#, fuzzy
+#| msgid "Blocked Contacts"
+msgid "Unblock Contacts"
+msgstr "Những liên lạc đã bị chặn"
+
+#: temba/contacts/views.py:150
+#, fuzzy
+#| msgid "Blocked Contacts"
+msgid "Block Contacts"
+msgstr "Những liên lạc đã bị chặn"
+
+#: temba/contacts/views.py:151
+msgid "Delete Contacts"
+msgstr "Xóa liên lạc"
+
+#: temba/contacts/views.py:233
+msgid "Used by another contact"
+msgstr "Đã dùng bởi liên lạc khác"
+
+#: temba/contacts/views.py:235
+msgid "Invalid format"
+msgstr "Định dạng không khả dụng"
+
+#: temba/contacts/views.py:246 temba/msgs/models.py:164
+#: temba/msgs/views.py:500 temba/triggers/models.py:52
+msgid "Groups"
+msgstr "Những nhóm"
+
+#: temba/contacts/views.py:247
+msgid "Add or remove groups this contact belongs to"
+msgstr "Thêm hoặc xóa những nhóm mà liên lạc thuộc về"
+
+#: temba/contacts/views.py:258
+#, python-format
+msgid "%s (Missing)"
+msgstr "%s (Thiếu)"
+
+#: temba/contacts/views.py:266
+#, fuzzy
+#| msgid "Add or remove groups this contact belongs to"
+msgid "The groups which this contact belongs to"
+msgstr "Thêm hoặc xóa những nhóm mà liên lạc thuộc về"
+
+#: temba/contacts/views.py:301 temba/flows/views.py:866
+#: temba/msgs/views.py:576
+#, fuzzy, python-format
+#| msgid ""
+#| "This flow is already being started, please wait until that process is "
+#| "complete before starting more contacts."
+msgid ""
+"There is already an export in progress, started by %s. You must wait for "
+"that export to complete before starting another."
+msgstr ""
+"Luồng này đã được bắt đầu, hãy đợi đến khi quá trình đó hoàn thành trước khi "
+"bắt đầu thêm nhiều người nữa"
+
+#: temba/contacts/views.py:312 temba/flows/views.py:877
+#, fuzzy, python-format
+#| msgid "We will e-mail you at %s when it is ready."
+msgid ""
+"We are preparing your export. We will e-mail you at %s when it is ready."
+msgstr "Chúng tôi sẽ email bạn tại %s khi đã sẵn sàng."
+
+#: temba/contacts/views.py:319 temba/flows/views.py:884
+#: temba/msgs/views.py:595
+#, python-format
+msgid ""
+"Export complete, you can find it here: %s (production users will get an "
+"email)"
+msgstr ""
+"Quá trình xuất đã hoàn thành, bạn có thể tìm thấy ở đây: %s (người dùng sản "
+"phẩm sẽ nhận được một email)."
+
+#: temba/contacts/views.py:336
+#, fuzzy
+#| msgid "Field names can only contain letters, numbers, spaces and hypens"
+msgid "Field names can only contain letters, numbers, hypens"
+msgstr "Tên trường chỉ chứa chữ, số, khoản trắng, dấu gạch giữa"
+
+#: temba/contacts/views.py:340
+#, python-format
+msgid "%s is a reserved name for contact fields"
+msgstr "%s là tên dành trước cho trường liên hệ"
+
+#: temba/contacts/views.py:612
+msgid "Invalid group or contact id"
+msgstr "Nhóm hoặc Tài khoản liên lạc không khả dụng"
+
+#: temba/contacts/views.py:618 temba/msgs/views.py:226
+msgid "Send Message"
+msgstr "Gửi tin nhắn"
+
+#: temba/contacts/views.py:625 temba/flows/views.py:624
+#: temba/flows/views.py:780 temba/msgs/views.py:759
+msgid "Edit"
+msgstr "Sửa"
+
+#: temba/contacts/views.py:628
+msgid "Block"
+msgstr "Chặn"
+
+#: temba/contacts/views.py:632
+msgid "Unblock"
+msgstr "Bỏ chặn"
+
+#: temba/contacts/views.py:636 temba/flows/views.py:802
+msgid "Delete"
+msgstr "Xóa"
+
+#: temba/contacts/views.py:650
+msgid "Save as Group"
+msgstr "Lưu dưới dạng nhóm"
+
+#: temba/contacts/views.py:653 temba/contacts/views.py:698
+msgid "Manage Fields"
+msgstr "Quản lý các trường"
+
+#: temba/contacts/views.py:656 temba/contacts/views.py:708
+#: temba/flows/views.py:790 temba/msgs/views.py:661
+msgid "Export"
+msgstr "Xuất"
+
+#: temba/contacts/views.py:672
+msgid "Blocked Contacts"
+msgstr "Những liên lạc đã bị chặn"
+
+#: temba/contacts/views.py:682
+msgid "Failed Contacts"
+msgstr "Những liên lạc đã thất bại"
+
+#: temba/contacts/views.py:703
+msgid "Edit Group"
+msgstr "Sửa nhóm"
+
+#: temba/contacts/views.py:712
+msgid "Delete Group"
+msgstr "Xóa nhóm"
+
+#: temba/contacts/views.py:749 temba/contacts/views.py:952
+#: temba/flows/views.py:1364 temba/msgs/views.py:865 temba/msgs/views.py:892
+msgid "Create"
+msgstr "Tạo"
+
+#: temba/contacts/views.py:781
+msgid "Save Changes"
+msgstr "Lưu thay đổi."
+
+#: temba/contacts/views.py:899
+msgid "Contact blocked"
+msgstr "Liên hệ đã bị chặn"
+
+#: temba/contacts/views.py:911
+msgid "Contact unblocked"
+msgstr "Liên lạc đã được bỏ chặn"
+
+#: temba/contacts/views.py:1011
+#, python-format
+msgid "You cannot remove this group while it has active triggers (%s)"
+msgstr "Bạn không thể gỡ bỏ nhóm này khi có một trigger hoạt động (%s)"
+
+#: temba/contacts/views.py:1035
+#, fuzzy
+#| msgid "Field names can only contain letters, numbers, spaces and hypens"
+msgid "Field names can only contain letters, numbers and hypens"
+msgstr "Tên trường chỉ chứa chữ, số, khoản trắng, dấu gạch giữa"
+
+#: temba/contacts/views.py:1038
+msgid "Field names must be unique"
+msgstr ""
+
+#: temba/contacts/views.py:1041
+#, python-format
+msgid "Field name '%s' is a reserved word"
+msgstr "Tên trường '%s' là một từ dành trước"
+
+#: temba/contacts/views.py:1067
+msgid "Manage Contact Fields"
+msgstr "Quảng lý các trường Liên lạc"
+
+#: temba/contacts/views.py:1068
+msgid "Update Fields"
+msgstr "Cập nhật các trường"
+
+#: temba/contacts/views.py:1098
+#, python-format
+msgid "@contact.%(key)s"
+msgstr "@contact.%(key)s"
+
+#: temba/contacts/views.py:1106
+msgid "show"
+msgstr "Hiển thị"
+
+#: temba/flows/views.py:41
+msgid "Expire inactive contacts"
+msgstr "Những người không hoạt động đã hết hạn"
+
+#: temba/flows/views.py:42
+msgid "When inactive contacts should be removed from the flow"
+msgstr "Khi những người không hoạt động nên được loại khỏi luồng"
+
+#: temba/flows/views.py:44
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: temba/flows/views.py:45
+msgid "After 5 minutes"
+msgstr "Sau 5 phút"
+
+#: temba/flows/views.py:46
+#, fuzzy
+#| msgid "After 30 minutes"
+msgid "After 10 minutes"
+msgstr "Sau 30 phút"
+
+#: temba/flows/views.py:47
+#, fuzzy
+#| msgid "After 5 minutes"
+msgid "After 15 minutes"
+msgstr "Sau 5 phút"
+
+#: temba/flows/views.py:48
+msgid "After 30 minutes"
+msgstr "Sau 30 phút"
+
+#: temba/flows/views.py:49
+msgid "After 1 hour"
+msgstr "Sau 1 giờ"
+
+#: temba/flows/views.py:50
+msgid "After 3 hours"
+msgstr "Sau 3 giờ"
+
+#: temba/flows/views.py:51
+msgid "After 6 hours"
+msgstr "Sau 6 giờ"
+
+#: temba/flows/views.py:52
+msgid "After 12 hours"
+msgstr "Sau 12 giờ"
+
+#: temba/flows/views.py:53
+msgid "After 1 day"
+msgstr "Sau 1 ngày"
+
+#: temba/flows/views.py:54
+msgid "After 3 days"
+msgstr "Sau 3 ngày"
+
+#: temba/flows/views.py:55
+msgid "After 1 week"
+msgstr "Sau 1 tuần"
+
+#: temba/flows/views.py:56
+msgid "After 2 weeks"
+msgstr "Sau 2 tuần"
+
+#: temba/flows/views.py:57
+msgid "After 30 days"
+msgstr "Sau 30 ngày"
+
+#: temba/flows/views.py:80
+#, python-format
+msgid "\"%s\" must be a single word containing only letter and numbers"
+msgstr "\"%s\" phải là một từ đơn chỉ chứa chữ cái và số"
+
+#: temba/flows/views.py:84
+#, python-format
+msgid "The keywords \"%s\" are already used for another flow"
+msgstr "Những từ khóa \"%s\" đã được sử dụng cho luồng khác"
+
+#: temba/flows/views.py:86
+#, python-format
+msgid "The keyword \"%s\" is already used for another flow"
+msgstr "Từ khóa \"%s\" đã được sử dụng cho luồng khác"
+
+#: temba/flows/views.py:97
+msgid "Archive Flows"
+msgstr "Luồng lưu trữ"
+
+#: temba/flows/views.py:98 temba/msgs/views.py:327 temba/msgs/views.py:444
+msgid "Label Messages"
+msgstr "Những tin nhắn nhãn"
+
+#: temba/flows/views.py:99
+msgid "Restore Flows"
+msgstr "Phục hồi các luồng"
+
+#: temba/flows/views.py:386 temba/flows/views.py:491
+msgid "Global keyword triggers"
+msgstr ""
+
+#: temba/flows/views.py:387 temba/flows/views.py:492
+msgid "When a user sends any of these keywords they will begin this flow"
+msgstr ""
+"Khi một người dùng gửi bất kì trong số những từ khóa này chúng sẽ bắt đầu "
+"luồng này"
+
+#: temba/flows/views.py:389
+msgid "Run flow over"
+msgstr "Chạy luồng vượt qua"
+
+#: temba/flows/views.py:390
+msgid "Place a phone call or use text messaging"
+msgstr "Đặt một cuộc gọi hoặc sử dụng tin nhắn văn bản"
+
+#: temba/flows/views.py:412
+msgid "Choose a name to describe this flow, e.g. Demographic Survey"
+msgstr "Chọn một tên để mô tả luồng này, ví dụ: Demographic Survey"
+
+#: temba/flows/views.py:466
+msgid "Your flow has been removed."
+msgstr "Luồng của bạn đã được gỡ bỏ"
+
+#: temba/flows/views.py:571 temba/flows/views.py:608 temba/msgs/views.py:114
+msgid "Flows"
+msgstr "Các luồng"
+
+#: temba/flows/views.py:629 temba/msgs/views.py:775
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#: temba/flows/views.py:669 temba/flows/views.py:673 temba/msgs/views.py:40
+#: temba/msgs/views.py:44
+msgid "Contact Name"
+msgstr "Tên liên lạc"
+
+#: temba/flows/views.py:670 temba/msgs/views.py:41
+msgid "Contact First Name"
+msgstr "Tên"
+
+#: temba/flows/views.py:671 temba/msgs/views.py:42
+msgid "Contact Groups"
+msgstr "Nhóm liên lạc"
+
+#: temba/flows/views.py:672 temba/msgs/views.py:43
+#, fuzzy
+#| msgid "Contact Name"
+msgid "Contact Language"
+msgstr "Tên liên lạc"
+
+#: temba/flows/views.py:674 temba/msgs/views.py:45
+msgid "Contact Phone"
+msgstr "Số điện thoại liên lạc"
+
+#: temba/flows/views.py:675 temba/msgs/views.py:46
+msgid "Contact Phone - E164"
+msgstr "Số điện thoại - E164"
+
+#: temba/flows/views.py:676 temba/msgs/views.py:47
+msgid "Contact UUID"
+msgstr "Mã UUID"
+
+#: temba/flows/views.py:677
+msgid "New Contact"
+msgstr "Liên lạc mới"
+
+#: temba/flows/views.py:682 temba/flows/views.py:683 temba/msgs/views.py:49
+#: temba/msgs/views.py:50
+msgid "Current Date and Time"
+msgstr "Ngày giờ hiện tại"
+
+#: temba/flows/views.py:684 temba/msgs/views.py:51
+msgid "Current Date"
+msgstr "Ngày hôm nay"
+
+#: temba/flows/views.py:685 temba/msgs/views.py:52
+msgid "Tomorrow's Date"
+msgstr "Ngày mai"
+
+#: temba/flows/views.py:686 temba/msgs/views.py:53
+msgid "Yesterday's Date"
+msgstr "Ngày hôm qua"
+
+#: temba/flows/views.py:690 temba/flows/views.py:691 temba/flows/views.py:692
+#: temba/flows/views.py:693 temba/flows/views.py:694 temba/flows/views.py:695
+msgid "Sent to"
+msgstr "Gửi đến"
+
+#: temba/flows/views.py:698
+msgid "All flow variables"
+msgstr "Các biến luồng"
+
+#: temba/flows/views.py:767
+msgid "Start Flow"
+msgstr "Bắt đầu luồng"
+
+#: temba/flows/views.py:773
+msgid "Results"
+msgstr "Kết quả"
+
+#: temba/flows/views.py:785
+msgid "Copy"
+msgstr "Sao chép"
+
+#: temba/flows/views.py:796
+msgid "Revision History"
+msgstr "Lịch sử hiệu chỉnh"
+
+#: temba/flows/views.py:833
+msgid "Export Flow"
+msgstr "Xuất luồng"
+
+#: temba/flows/views.py:917 temba/msgs/views.py:370 temba/msgs/views.py:373
+#: temba/msgs/views.py:376
+msgid "Sorry you have no permission for this action."
+msgstr "Xin lỗi bạn không có quyền cho hành động này"
+
+#: temba/flows/views.py:1230
+msgid "Contacts & Groups"
+msgstr "Liên lạc và nhóm"
+
+#: temba/flows/views.py:1231
+msgid ""
+"These contacts will be added to the flow, sending the first message if "
+"appropriate."
+msgstr ""
+"Những liên lạc này sẽ được thêm vào luồng, gửi tin nhắn đầu tiên nếu thích "
+"hợp"
+
+#: temba/flows/views.py:1233
+msgid "Restart Participants"
+msgstr "Khởi động lại người tham gia"
+
+#: temba/flows/views.py:1234
+msgid "Restart any contacts already participating in this flow"
+msgstr "Khởi động lại bất kì người nào đã tham gia vào luồng này"
+
+#: temba/flows/views.py:1239
+msgid "You must specify at least one contact or one group to start a flow."
+msgstr "Bạn phải chỉ rõ ít nhất một người hoặc một nhóm để bắt đầu một luồng"
+
+#: temba/flows/views.py:1248
+msgid ""
+"This flow is already being started, please wait until that process is "
+"complete before starting more contacts."
+msgstr ""
+"Luồng này đã được bắt đầu, hãy đợi đến khi quá trình đó hoàn thành trước khi "
+"bắt đầu thêm nhiều người nữa"
+
+#: temba/flows/views.py:1259
+msgid "Add Contacts to Flow"
+msgstr "Thêm liên lạc vào luồng"
+
+#: temba/flows/views.py:1305 temba/msgs/models.py:188
+msgid "Parent"
+msgstr "cha"
+
+#: temba/flows/views.py:1328
+msgid "Name already used"
+msgstr "Tên đã được sử dụng"
+
+#: temba/ivr/clients.py:32
+#, fuzzy
+#| msgid ""
+#| "Your Twilio account is no longer connected. First remove your Twilio "
+#| "account, reconnect it and try again."
+msgid ""
+"Could not authenticate with your Twilio account. Check your token and try "
+"again."
+msgstr ""
+"Tài khoản Twilio của bạn không còn được kết nối. Đầu tiên hãy xóa tài khoản "
+"Twilio, thử kết nối lại và thử lại."
+
+#: temba/ivr/clients.py:73
+msgid "Verboice connection failed."
+msgstr ""
+
+#: temba/ivr/models.py:58 temba/msgs/models.py:546
+msgid "Contact URN"
+msgstr "URN liên lạc"
+
+#: temba/ivr/models.py:59
+msgid "The URN this call is communicating with"
+msgstr ""
+
+#: temba/ivr/models.py:196
+msgid "Call ended."
+msgstr "Cuộc gọi kết thúc"
+
+#: temba/locations/views.py:31
+msgid "You must select a country for your organization."
+msgstr "Bạn phải chọn một quốc gia cho tổ chức của bạn"
+
+#: temba/msgs/models.py:80
+msgid "Initializing"
+msgstr "Đang khởi tạo"
+
+#: temba/msgs/models.py:83
+msgid "Pending"
+msgstr "Đang đợi xử lí"
+
+#: temba/msgs/models.py:86
+msgid "Queued"
+msgstr "Đã được xếp hàng"
+
+#: temba/msgs/models.py:87
+msgid "Wired"
+msgstr ""
+
+#: temba/msgs/models.py:88 temba/msgs/views.py:117
+msgid "Sent"
+msgstr "Đã gửi"
+
+#: temba/msgs/models.py:89
+msgid "Delivered"
+msgstr "Đã giao"
+
+#: temba/msgs/models.py:92
+msgid "Handled"
+msgstr "Đã xử lí"
+
+#: temba/msgs/models.py:95
+msgid "Error Sending"
+msgstr "Lỗi gửi tin"
+
+#: temba/msgs/models.py:98
+msgid "Failed Sending"
+msgstr "Gửi tin thất bại"
+
+#: temba/msgs/models.py:101
+msgid "Resent message"
+msgstr "Gửi lại tin nhắn"
+
+#: temba/msgs/models.py:162
+msgid "The org this broadcast is connected to"
+msgstr ""
+
+#: temba/msgs/models.py:165
+msgid "The groups to send the message to"
+msgstr "Các nhóm được gửi tin nhắn"
+
+#: temba/msgs/models.py:168
+msgid "Individual contacts included in this message"
+msgstr "Các liên lạc cá nhân được bao gồm trong tin nhắn này"
+
+#: temba/msgs/models.py:170
+msgid "URNs"
+msgstr "các URN"
+
+#: temba/msgs/models.py:171
+msgid "Individual URNs included in this message"
+msgstr "Các URN cá nhân được bao gồm trong tin nhắn này"
+
+#: temba/msgs/models.py:173
+msgid "Number of recipients"
+msgstr "Số lượng người nhận"
+
+#: temba/msgs/models.py:174
+msgid "Number of contacts to receive this broadcast"
+msgstr "Số lượng liên lạc được nhận trong lần phát đi này"
+
+#: temba/msgs/models.py:176 temba/msgs/models.py:553
+msgid "Text"
+msgstr "Văn bản"
+
+#: temba/msgs/models.py:177
+msgid "The message to send out"
+msgstr "Tin nhắn đã được phát đi"
+
+#: temba/msgs/models.py:180
+msgid "Channel to use for message sending"
+msgstr ""
+
+#: temba/msgs/models.py:182 temba/msgs/models.py:574
+msgid "Status"
+msgstr "Trạng thái"
+
+#: temba/msgs/models.py:183
+msgid "The current status for this broadcast"
+msgstr "Trạng thái hiện tại cho lần phát đi này"
+
+#: temba/msgs/models.py:185 temba/triggers/models.py:58
+msgid "Schedule"
+msgstr "Thời khóa biểu"
+
+#: temba/msgs/models.py:186
+msgid "Our recurring schedule if we have one"
+msgstr "Thời khóa biểu tuần hoàn nếu chúng ta có"
+
+#: temba/msgs/models.py:190
+msgid "Translations"
+msgstr "Các bản dịch"
+
+#: temba/msgs/models.py:191
+msgid "The localized versions of the broadcast"
+msgstr "Phiên bản địa phương hóa của tin phát"
+
+#: temba/msgs/models.py:199
+msgid "When this broadcast was created"
+msgstr ""
+
+#: temba/msgs/models.py:523
+msgid "Visible"
+msgstr "Có thể thấy được"
+
+#: temba/msgs/models.py:524 temba/msgs/views.py:115 temba/msgs/views.py:691
+#: temba/triggers/views.py:423
+msgid "Archived"
+msgstr "Được lưu trữ"
+
+#: temba/msgs/models.py:525
+msgid "Deleted"
+msgstr "Được xóa"
+
+#: temba/msgs/models.py:527
+msgid "Incoming"
+msgstr "Đang đến"
+
+#: temba/msgs/models.py:528
+msgid "Outgoing"
+msgstr "Đi"
+
+#: temba/msgs/models.py:530
+msgid "Inbox Message"
+msgstr "Tin nhắn đến"
+
+#: temba/msgs/models.py:531
+msgid "Flow Message"
+msgstr "Tin nhắn luồng"
+
+#: temba/msgs/models.py:532
+#, fuzzy
+#| msgid "Message"
+msgid "IVR Message"
+msgstr "Tin nhắn"
+
+#: temba/msgs/models.py:535
+msgid "The org this message is connected to"
+msgstr "Tổ chức được tin nhắn này liên kết"
+
+#: temba/msgs/models.py:539
+msgid "The channel object that this message is associated with"
+msgstr "Kênh mục tiêu được tin nhắn này kết hợp"
+
+#: temba/msgs/models.py:542 temba/msgs/models.py:1389
+msgid "Contact"
+msgstr "Liên lạc"
+
+#: temba/msgs/models.py:543
+msgid "The contact this message is communicating with"
+msgstr ""
+
+#: temba/msgs/models.py:547
+msgid "The URN this message is communicating with"
+msgstr ""
+
+#: temba/msgs/models.py:550
+msgid "Broadcast"
+msgstr ""
+
+#: temba/msgs/models.py:551
+msgid "If this message was sent to more than one recipient"
+msgstr "Liệu tin nhắn này được gửi đến nhiều hơn một người nhận"
+
+#: temba/msgs/models.py:554
+msgid "The actual message content that was sent"
+msgstr "Nội dung tin nhắn thật sự được gửi"
+
+#: temba/msgs/models.py:557
+msgid "The priority for this message to be sent, higher is higher priority"
+msgstr ""
+"Quyền ưu tiên cho tin nhắn này để gửi, cao hơn là quyền ưu tiên cao hơn"
+
+#: temba/msgs/models.py:559
+msgid "Created On"
+msgstr "Được tạo vào lúc"
+
+#: temba/msgs/models.py:560
+msgid "When this message was created"
+msgstr "Khi tin nhắn này được tạo"
+
+#: temba/msgs/models.py:562
+msgid "Sent On"
+msgstr "Được gửi vào lúc"
+
+#: temba/msgs/models.py:563
+msgid "When this message was sent to the endpoint"
+msgstr "Khi tin nhắn này được gửi đến điểm cuối"
+
+#: temba/msgs/models.py:565
+msgid "Delivered On"
+msgstr "Được phát vào lúc"
+
+#: temba/msgs/models.py:566
+msgid ""
+"When this message was delivered to the final recipient (for incoming "
+"messages, when the message was handled)"
+msgstr ""
+"Khi tin nhắn này được chuyển tới người nhận cuối cùng (với những tin nhắn "
+"đến, khi tin nhắn đã được xử lí)"
+
+#: temba/msgs/models.py:568
+msgid "Queued On"
+msgstr "Được xếp hàng vào lúc"
+
+#: temba/msgs/models.py:569
+msgid "When this message was queued to be sent or handled."
+msgstr "Khi tin nhắn này được xếp hàng đợi gửi hoặc xử lí"
+
+#: temba/msgs/models.py:571
+msgid "Direction"
+msgstr "Điều hướng"
+
+#: temba/msgs/models.py:572
+msgid "The direction for this message, either incoming or outgoing"
+msgstr "Điều hướng cho tin nhắn này, cả đến và đi"
+
+#: temba/msgs/models.py:575
+msgid "The current status for this message"
+msgstr "Trạng thái hiện tại cho tin nhắn này"
+
+#: temba/msgs/models.py:578
+msgid "Response To"
+msgstr "Phản hồi đến"
+
+#: temba/msgs/models.py:579
+msgid "The message that this message is in reply to"
+msgstr "Tin nhắn được tin nhắn này trả lời"
+
+#: temba/msgs/models.py:581
+msgid "Labels"
+msgstr "Các nhãn"
+
+#: temba/msgs/models.py:582
+msgid "Any labels on this message"
+msgstr "Bất kì nhãn nào trên tin nhắn này"
+
+#: temba/msgs/models.py:585
+msgid "Visibility"
+msgstr ""
+
+#: temba/msgs/models.py:586
+msgid ""
+"The current visibility of this message, either visible, archived or deleted"
+msgstr ""
+
+#: temba/msgs/models.py:588
+msgid "Has Template Error"
+msgstr ""
+
+#: temba/msgs/models.py:589
+msgid "Whether data for variable substitution are missing"
+msgstr ""
+
+#: temba/msgs/models.py:591
+msgid "Message Type"
+msgstr "Loại tin nhắn"
+
+#: temba/msgs/models.py:592
+msgid "The type of this message"
+msgstr "Loại của tin nhắn này"
+
+#: temba/msgs/models.py:594
+msgid "Message Count"
+msgstr "Số lượng tin nhắn"
+
+#: temba/msgs/models.py:595
+msgid ""
+"The number of messages that were used to send this message, calculated on "
+"Twilio channels"
+msgstr ""
+"Số lượng tin nhắn được dùng để gửi thông điệp này, tính trên kênh Twilio"
+
+#: temba/msgs/models.py:597
+msgid "Error Count"
+msgstr "Số lượng lỗi"
+
+#: temba/msgs/models.py:598
+msgid "The number of times this message has errored"
+msgstr "Số lần tin nhắn này bị lỗi"
+
+#: temba/msgs/models.py:600
+msgid "Next Attempt"
+msgstr "Lần thử tiếp theo"
+
+#: temba/msgs/models.py:601
+msgid "When we should next attempt to deliver this message"
+msgstr "Khi chúng ta cố phát tin nhắn này lần tiếp theo"
+
+#: temba/msgs/models.py:603
+msgid "External ID"
+msgstr "ID ngoài"
+
+#: temba/msgs/models.py:604
+msgid "External id used for integrating with callbacks from other APIs"
+msgstr "ID ngoài dùng để tích hợp với các cuộc gọi lại từ những API khác"
+
+#: temba/msgs/models.py:610
+#, fuzzy
+#| msgid "The current status for this message"
+msgid "The url for any recording associated with this message"
+msgstr "Trạng thái hiện tại cho tin nhắn này"
+
+#: temba/msgs/models.py:927
+msgid "Cannot process an outgoing message."
+msgstr "Không thể xử lí một tin nhắn đi"
+
+#: temba/msgs/models.py:1022
+msgid "Can't create an incoming message without an org"
+msgstr "Không thể tạo một tin nhắn đến mà không có tổ chức"
+
+#: temba/msgs/models.py:1378
+msgid "Unknown Call Type"
+msgstr "Loại cuộc gọi không xác định"
+
+#: temba/msgs/models.py:1379
+msgid "Incoming Call"
+msgstr "Cuộc gọi đến"
+
+#: temba/msgs/models.py:1380
+msgid "Missed Incoming Call"
+msgstr "Cuộc gọi đến bị nhỡ"
+
+#: temba/msgs/models.py:1381
+msgid "Outgoing Call"
+msgstr "Cuộc gọi đi"
+
+#: temba/msgs/models.py:1382
+msgid "Missed Outgoing Call"
+msgstr "Cuộc gọi đi bị nhỡ"
+
+#: temba/msgs/models.py:1384
+msgid "The org this call is connected to"
+msgstr ""
+
+#: temba/msgs/models.py:1388
+msgid "The channel where this call took place"
+msgstr "Kênh tại nơi cuộc gọi này thực hiện"
+
+#: temba/msgs/models.py:1390
+msgid "The phone number for this call"
+msgstr "Số điện thoại cuộc gọi này"
+
+#: temba/msgs/models.py:1391
+msgid "Time"
+msgstr "Thời gian"
+
+#: temba/msgs/models.py:1391
+msgid "When this call took place"
+msgstr "Khi cuộc gọi này thực hiện"
+
+#: temba/msgs/models.py:1392
+msgid "Duration"
+msgstr "Khoảng thời gian"
+
+#: temba/msgs/models.py:1393
+msgid "The duration of this call in seconds, if appropriate"
+msgstr "Độ dài cuộc gọi này tính theo giây, nếu thích hợp"
+
+#: temba/msgs/models.py:1395
+msgid "Call Type"
+msgstr "Loại cuộc gọi"
+
+#: temba/msgs/models.py:1395
+msgid "The type of call"
+msgstr "Loại cuộc gọi"
+
+#: temba/msgs/models.py:1464
+msgid "Number of items with this system label"
+msgstr ""
+
+#: temba/msgs/models.py:1551
+msgid "The name of this label"
+msgstr "Tên nhãn này"
+
+#: temba/msgs/models.py:1553 temba/msgs/views.py:824
+msgid "Folder"
+msgstr ""
+
+#: temba/msgs/models.py:1555
+#, fuzzy
+#| msgid "Label Type"
+msgid "Label type"
+msgstr "Loại nhãn"
+
+#: temba/msgs/models.py:1558
+msgid "Number of non-archived messages with this label"
+msgstr ""
+
+#: temba/msgs/models.py:1722
+msgid "The organization of the user."
+msgstr "Tổ chức của người dùng."
+
+#: temba/msgs/models.py:1728
+msgid "The date for the oldest message to export"
+msgstr "Ngày tháng cho tin nhắn cũ nhất để xuất"
+
+#: temba/msgs/models.py:1730
+msgid "The date for the newest message to export"
+msgstr "Ngày tháng cho tin nhắn mới nhất để xuất"
+
+#: temba/msgs/models.py:1736
+#, fuzzy
+#| msgid "Whether this report is currently published"
+msgid "Whether this export is finished running"
+msgstr "Bản báo cáo có đang được công bố hay chưa"
+
+#: temba/msgs/models.py:1783 temba/msgs/models.py:1801
+#, python-format
+msgid "Messages %d"
+msgstr "Số tin nhắn %d"
+
+#: temba/msgs/views.py:38
+#, python-format
+msgid "Contact Field: %(label)s"
+msgstr "Trường liên lạc:  %(label)s"
+
+#: temba/msgs/views.py:72 temba/msgs/views.py:142
+msgid "At least one recipient is required"
+msgstr "Cần ít nhất một người nhận"
+
+#: temba/msgs/views.py:113 temba/msgs/views.py:654
+msgid "Inbox"
+msgstr "Hộp thư đến"
+
+#: temba/msgs/views.py:116
+msgid "Outbox"
+msgstr "Hộp thư gửi"
+
+#: temba/msgs/views.py:118
+msgid "Calls"
+msgstr "Các cuộc gọi"
+
+#: temba/msgs/views.py:119
+msgid "Schedules"
+msgstr "Các bảng thời khóa biểu"
+
+#: temba/msgs/views.py:159
+msgid "Schedule Message"
+msgstr "Đặt lịch tin nhắn"
+
+#: temba/msgs/views.py:162
+msgid "Scheduled Message"
+msgstr "Tin nhắn được lên lịch"
+
+#: temba/msgs/views.py:214
+msgid "Scheduled Messages"
+msgstr "Các tin nhắn được lên lịch"
+
+#: temba/msgs/views.py:230
+msgid "Send"
+msgstr "Gửi"
+
+#: temba/msgs/views.py:328 temba/msgs/views.py:445
+msgid "Archive Messages"
+msgstr "Lưu trữ tin nhắn"
+
+#: temba/msgs/views.py:329 temba/msgs/views.py:446
+msgid "Move to Inbox"
+msgstr "Chuyển đến hộp thư đến"
+
+#: temba/msgs/views.py:330 temba/msgs/views.py:447
+msgid "Resend Messages"
+msgstr "Gửi lại các tin nhắn"
+
+#: temba/msgs/views.py:331 temba/msgs/views.py:448
+msgid "Delete Messages"
+msgstr "Xóa các tin nhắn"
+
+#: temba/msgs/views.py:379 temba/msgs/views.py:382
+msgid "Must specify a label"
+msgstr "Phải ghi rõ một nhãn"
+
+#: temba/msgs/views.py:396 temba/msgs/views.py:406
+msgid "Missing label"
+msgstr "Nhãn bị thiếu"
+
+#: temba/msgs/views.py:437
+msgid "Oops, so sorry. Something went wrong!"
+msgstr "Rất tiếc, xin lỗi bạn. Một vài thứ bị sai!"
+
+#: temba/msgs/views.py:484
+msgid "Which channel will deliver the message"
+msgstr "Kênh nào sẽ phát tin nhắn này"
+
+#: temba/msgs/views.py:486
+msgid "The URN of the contact delivering this message"
+msgstr "URN của liên lạc phát tin nhắn này"
+
+#: temba/msgs/views.py:488
+msgid "The message that is being delivered"
+msgstr "Tin nhắn đang được phát đi"
+
+#: temba/msgs/views.py:502
+msgid ""
+"The date for the oldest message to export. (Leave blank to export from the "
+"oldest message)."
+msgstr ""
+"Ngày tháng cho tin nhắn cũ nhất để xuất (Để trống sẽ xuất từ tin nhắn cũ "
+"nhất)"
+
+#: temba/msgs/views.py:504
+msgid ""
+"The date for the latest message to export. (Leave blank to export up to the "
+"latest message)."
+msgstr ""
+"Ngày tháng cho tin nhắn cuối cùng để xuất (Để trống xuất cho đến tin nhắn "
+"cuối cùng)"
+
+#: temba/msgs/views.py:510
+msgid ""
+"Export only messages from these contact groups. (Leave blank to export all "
+"messages)."
+msgstr ""
+"Xuất chỉ những tin nhắn từ các nhóm liên lạc này. (Để trống để xuất tất cả "
+"tin nhắn)"
+
+#: temba/msgs/views.py:518
+msgid "The Start Date should not be a date in the future."
+msgstr "Ngày tháng bắt đầu không nên là ngày tháng ở tương lai"
+
+#: temba/msgs/views.py:522
+msgid "The End Date should be a date after the Start Date"
+msgstr "Ngày tháng kết thúc nên sau ngày tháng bắt đầu"
+
+#: temba/msgs/views.py:589
+msgid "We are preparing your export. "
+msgstr "chúng tôi đang chuẩn bị để truy xuất"
+
+#: temba/msgs/views.py:590
+#, python-format
+msgid "We will e-mail you at %s when it is ready."
+msgstr "Chúng tôi sẽ email bạn tại %s khi đã sẵn sàng."
+
+#: temba/msgs/views.py:677
+msgid "Flow Messages"
+msgstr "Các tin nhắn luồng"
+
+#: temba/msgs/views.py:705
+#, fuzzy
+#| msgid "Inbox Message"
+msgid "Outbox Messages"
+msgstr "Tin nhắn đến"
+
+#: temba/msgs/views.py:719
+#, fuzzy
+#| msgid "Send Message"
+msgid "Sent Messages"
+msgstr "Gửi tin nhắn"
+
+#: temba/msgs/views.py:733
+msgid "Failed Outgoing Messages"
+msgstr "Các tin nhắn đi không thành công"
+
+#: temba/msgs/views.py:764
+msgid "Export Data"
+msgstr "Xuất dữ liệu"
+
+#: temba/msgs/views.py:769
+msgid "Send All"
+msgstr "Gửi tất cả"
+
+#: temba/msgs/views.py:837
+#, fuzzy
+#| msgid "The name of this label"
+msgid "The name of this folder"
+msgstr "Tên nhãn này"
+
+#: temba/msgs/views.py:917
+#, fuzzy
+#| msgid "Update Fields"
+msgid "Update Folder"
+msgstr "Cập nhật các trường"
+
+#: temba/msgs/views.py:917
+msgid "Update Label"
+msgstr ""
+
+#: temba/orgs/models.py:71
+msgid "Free Plan"
+msgstr "Gói miễn phí"
+
+#: temba/orgs/models.py:72
+msgid "Trial"
+msgstr "Thử nghiệm"
+
+#: temba/orgs/models.py:73
+msgid "Bronze"
+msgstr "Đồng"
+
+#: temba/orgs/models.py:74
+msgid "Silver"
+msgstr "Bạc"
+
+#: temba/orgs/models.py:75
+msgid "Gold (Legacy)"
+msgstr ""
+
+#: temba/orgs/models.py:76
+msgid "Platinum (Legacy)"
+msgstr ""
+
+#: temba/orgs/models.py:77
+msgid "Gold"
+msgstr "Vàng"
+
+#: temba/orgs/models.py:78
+msgid "Platinum"
+msgstr "Bạch kim"
+
+#: temba/orgs/models.py:141
+msgid "Plan"
+msgstr "Kế hoạch"
+
+#: temba/orgs/models.py:142
+msgid "What plan your organization is on"
+msgstr "Kế hoạch nào tổ chức của bạn sử dụng"
+
+#: temba/orgs/models.py:143
+msgid "Plan Start"
+msgstr "Khởi đầu kế hoạch"
+
+#: temba/orgs/models.py:144
+msgid "When the user switched to this plan"
+msgstr "Khi người dùng chuyển sang kế hoạch này"
+
+#: temba/orgs/models.py:146
+msgid "Stripe Customer"
+msgstr ""
+
+#: temba/orgs/models.py:147
+msgid "Our Stripe customer id for your organization"
+msgstr ""
+
+#: temba/orgs/models.py:149
+msgid "Administrators"
+msgstr "Những người quản trị"
+
+#: temba/orgs/models.py:150
+msgid "The administrators in your organization"
+msgstr "Những người quản trị trong tổ chức của bạn"
+
+#: temba/orgs/models.py:152
+msgid "Viewers"
+msgstr "Những người xem"
+
+#: temba/orgs/models.py:153
+msgid "The viewers in your organization"
+msgstr "Những người xem trong tổ chức của bạn"
+
+#: temba/orgs/models.py:155
+msgid "Editors"
+msgstr "Những người biên tập"
+
+#: temba/orgs/models.py:156
+msgid "The editors in your organization"
+msgstr "Những người biên tập trong tổ chức của bạn"
+
+#: temba/orgs/models.py:158
+msgid "Surveyors"
+msgstr ""
+
+#: temba/orgs/models.py:159
+#, fuzzy
+#| msgid "The viewers in your organization"
+msgid "The users can login via Android for your organization"
+msgstr "Những người xem trong tổ chức của bạn"
+
+#: temba/orgs/models.py:162
+msgid "The main language used by this organization"
+msgstr "Ngôn ngữ chính được dùng trong tổ chức này"
+
+#: temba/orgs/models.py:164
+msgid "Timezone"
+msgstr "Múi giờ"
+
+#: temba/orgs/models.py:166
+msgid "Date Format"
+msgstr "Định dạng ngày tháng"
+
+#: temba/orgs/models.py:167
+msgid "Whether day comes first or month comes first in dates"
+msgstr "Liệu ngày trước tháng hay tháng trước ngày"
+
+#: temba/orgs/models.py:169
+msgid "Webhook"
+msgstr "Webhook"
+
+#: temba/orgs/models.py:170
+msgid "Webhook endpoint and configuration"
+msgstr ""
+
+#: temba/orgs/models.py:172
+msgid "Webhook Events"
+msgstr ""
+
+#: temba/orgs/models.py:173
+msgid "Which type of actions will trigger webhook events."
+msgstr ""
+
+#: temba/orgs/models.py:178
+msgid "Message Last Viewed"
+msgstr "Lượt xem cuối tin nhắn"
+
+#: temba/orgs/models.py:180
+msgid "Flows Last Viewed"
+msgstr "Lượt xem cuối các luồng"
+
+#: temba/orgs/models.py:182 temba/reports/models.py:22
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#: temba/orgs/models.py:183
+msgid "More Organization specific configuration"
+msgstr ""
+
+#: temba/orgs/models.py:185
+msgid "Slug"
+msgstr ""
+
+#: temba/orgs/models.py:185
+msgid "This slug is not available"
+msgstr ""
+
+#: temba/orgs/models.py:188
+msgid ""
+"Whether this organization anonymizes the phone numbers of contacts within it"
+msgstr ""
+
+#: temba/orgs/models.py:191
+msgid ""
+"The primary language will be used for contacts with no language preference."
+msgstr ""
+"Ngôn ngữ chính sẽ được dùng cho những liên hệ không có ưu tiên ngôn ngữ"
+
+#: temba/orgs/models.py:1043
+#, python-format
+msgid "Invalid bundle: %s, cannot upgrade."
+msgstr "Gói không hợp lệ: %s, không thể nâng cấp."
+
+#: temba/orgs/models.py:1123 temba/orgs/models.py:1190
+msgid ""
+"Sorry, we were unable to charge your card, please try again later or contact "
+"us."
+msgstr ""
+"Xin lỗi, chúng tôi không thể nạp thẻ của bạn, vui lòng thử lại sau hoặc liên "
+"hệ với chúng tôi"
+
+#: temba/orgs/models.py:1159 temba/orgs/models.py:1161
+msgid ""
+"Sorry, we are unable to cancel your plan at this time.  Please contact us."
+msgstr ""
+"Xin lỗi, chúng tôi không thể hủy kế hoạch của bạn vào thời điểm này. Vui "
+"lòng liên hệ với chúng tôi"
+
+#: temba/orgs/models.py:1395
+msgid "Administrator"
+msgstr "Người quản trị"
+
+#: temba/orgs/models.py:1396
+msgid "Editor"
+msgstr "Người biên tập"
+
+#: temba/orgs/models.py:1397
+msgid "Viewer"
+msgstr "Người xem"
+
+#: temba/orgs/models.py:1398
+msgid "Surveyor"
+msgstr ""
+
+#: temba/orgs/models.py:1459
+msgid "The organization to which the account is invited to view"
+msgstr "Tổ chức mà tài khoản được mời để xem"
+
+#: temba/orgs/models.py:1461
+msgid "Email"
+msgstr "Email"
+
+#: temba/orgs/models.py:1461
+msgid "The email to which we send the invitation of the viewer"
+msgstr "Email chúng ta gửi lời mời của người xem"
+
+#: temba/orgs/models.py:1464
+msgid "a unique code associated with this invitation"
+msgstr "một mã duy nhất liên kết với lời mời này"
+
+#: temba/orgs/models.py:1466
+msgid "The host this invitation was created on"
+msgstr ""
+
+#: temba/orgs/models.py:1468
+msgid "User Role"
+msgstr "Vai trò người dùng"
+
+#: temba/orgs/models.py:1501
+#, python-format
+msgid "%(name)s Invitation"
+msgstr "Lời mời %(name)s"
+
+#: temba/orgs/models.py:1517
+msgid "Your preferred language"
+msgstr "Ngôn ngữ ưu tiên của bạn"
+
+#: temba/orgs/models.py:1518
+msgid "Phone Number"
+msgstr "Số điện thoại"
+
+#: temba/orgs/models.py:1519
+msgid "Phone number for testing and recording voice flows"
+msgstr "Số điện thoại cho các luồng kiểm thử và thu tiếng"
+
+#: temba/orgs/models.py:1535
+msgid "Price Paid"
+msgstr "Giá đã thanh toán"
+
+#: temba/orgs/models.py:1536
+msgid "The price paid for the messages in this top up (in cents)"
+msgstr "Giá đã thanh toán cho các tin nhắn trong lần bổ sung này (theo cent)"
+
+#: temba/orgs/models.py:1537
+msgid "Number of Credits"
+msgstr "Số tín dụng"
+
+#: temba/orgs/models.py:1538
+msgid "The number of credits bought in this top up"
+msgstr "Số lượng tín dụng được mua trong lần bổ sung này"
+
+#: temba/orgs/models.py:1540
+msgid "The date that this top up will expire"
+msgstr "Ngày tháng bổ sung này sẽ kết thúc"
+
+#: temba/orgs/models.py:1541
+msgid "Stripe Charge Id"
+msgstr ""
+
+#: temba/orgs/models.py:1542
+msgid "The Stripe charge id for this charge"
+msgstr ""
+
+#: temba/orgs/models.py:1606
+msgid "The topup these credits are being used against"
+msgstr ""
+
+#: temba/orgs/models.py:1607
+msgid "How many credits were used, can be negative"
+msgstr ""
+
+#: temba/public/models.py:13
+msgid "The name of the video"
+msgstr "Tên của đoạn phim"
+
+#: temba/public/models.py:14
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#: temba/public/models.py:15
+msgid "A short blurb about the video"
+msgstr "Giới thiệu ngắn về đoạn phim"
+
+#: temba/public/models.py:16 temba/reports/models.py:17
+msgid "Description"
+msgstr "Mô tả"
+
+#: temba/public/models.py:18
+msgid "Vimeo ID"
+msgstr "Vimeo ID"
+
+#: temba/public/models.py:19
+msgid "The id vimeo uses for this video"
+msgstr "ID Vimeo sử dụng cho đoạn phim này"
+
+#: temba/public/views.py:110
+msgid "Register for public beta"
+msgstr "Đăng kí public beta"
+
+#: temba/reports/models.py:13
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: temba/reports/models.py:15
+msgid "The name title or this report"
+msgstr "Tên tiêu đề của báo cáo này"
+
+#: temba/reports/models.py:18
+msgid "The full description for the report"
+msgstr "Mô tả đầy đủ của bản báo cáo"
+
+#: temba/reports/models.py:23
+msgid "The JSON encoded configurations for this report"
+msgstr "Tùy chỉnh mã hóa JSON của bản báo cáo"
+
+#: temba/reports/models.py:26
+msgid "Whether this report is currently published"
+msgstr "Bản báo cáo có đang được công bố hay chưa"
+
+#: temba/settings_common.py:75
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: temba/settings_common.py:76
+msgid "Portuguese"
+msgstr "Tiếng Bồ Đào Nha"
+
+#: temba/settings_common.py:77
+msgid "French"
+msgstr "Tiếng Pháp"
+
+#: temba/settings_common.py:78
+msgid "Spanish"
+msgstr "Tiếng Tây Ban Nha"
+
+#: temba/settings_common.py:312
+msgid ""
+"Visually build nationally scalable mobile applications from anywhere in the "
+"world."
+msgstr ""
+"Xây dựng trực quan các ứng dụng di động có thể nhân rộng toàn quốc từ bất cứ "
+"đâu trên thế giới."
+
+#: temba/settings_common.py:313
+#, fuzzy
+#| msgid "Copyright &copy; 2012-2014 Nyaruka, Ltd. All Rights Reserved."
+msgid "Copyright &copy; 2012-2015 UNICEF, Nyaruka. All Rights Reserved."
+msgstr "Bản quyền &copy; 2012-2014 Nyaruka, Ltd. Các quyền được bảo hộ."
+
+#: temba/triggers/models.py:28
+msgid "Keyword Trigger"
+msgstr "Kích hoạt bằng từ khóa"
+
+#: temba/triggers/models.py:29
+msgid "Schedule Trigger"
+msgstr "Kích hoạt định kì"
+
+#: temba/triggers/models.py:30
+msgid "Inbound Call Trigger"
+msgstr "Kích hoạt từ cuộc gọi đến"
+
+#: temba/triggers/models.py:31
+msgid "Missed Call Trigger"
+msgstr "Kích hoạt từ cuộc gọi nhỡ"
+
+#: temba/triggers/models.py:32
+msgid "Catch All Trigger"
+msgstr "Kích hoạt từ tất cả"
+
+#: temba/triggers/models.py:33
+msgid "Follow Account Trigger"
+msgstr "Kích hoạt khi tài khoản có theo dõi"
+
+#: temba/triggers/models.py:35
+msgid "The organization this trigger belongs to"
+msgstr "Tổ chức kích hoạt này thuộc vể"
+
+#: temba/triggers/models.py:37 temba/triggers/views.py:111
+msgid "Keyword"
+msgstr "Từ khóa"
+
+#: temba/triggers/models.py:38
+msgid "The first word in the message text"
+msgstr "Từ đầu tiên trong văn bản tin nhắn"
+
+#: temba/triggers/models.py:40 temba/triggers/views.py:34
+#: temba/triggers/views.py:188
+msgid "Flow"
+msgstr "Luồng"
+
+#: temba/triggers/models.py:41
+msgid "Which flow will be started"
+msgstr "Luồng sẽ được bắt đầu"
+
+#: temba/triggers/models.py:43
+msgid "Last Triggered"
+msgstr "Được kích hoạt lần cuối"
+
+#: temba/triggers/models.py:44
+msgid "The last time this trigger was fired"
+msgstr "Lần cuối sự kích hoạt này được khởi động"
+
+#: temba/triggers/models.py:46
+msgid "Trigger Count"
+msgstr "Số lượng kích hoạt"
+
+#: temba/triggers/models.py:47
+msgid "How many times this trigger has fired"
+msgstr "Bao nhiêu lần bộ kích hoạt này được khởi động"
+
+#: temba/triggers/models.py:49
+msgid "Is Archived"
+msgstr "Đã bị xóa"
+
+#: temba/triggers/models.py:50
+msgid "Whether this trigger is archived"
+msgstr ""
+
+#: temba/triggers/models.py:53
+msgid "The groups to broadcast the flow to"
+msgstr ""
+
+#: temba/triggers/models.py:56
+msgid "Individual contacts to broadcast the flow to"
+msgstr ""
+
+#: temba/triggers/models.py:60
+msgid "Our recurring schedule"
+msgstr "Lịch trình tuần hoàn của chúng ta"
+
+#: temba/triggers/models.py:63
+msgid "Trigger Type"
+msgstr ""
+
+#: temba/triggers/models.py:63
+msgid "The type of this trigger"
+msgstr ""
+
+#: temba/triggers/models.py:65
+msgid "The associated channel"
+msgstr "Kênh liên kết"
+
+#: temba/triggers/views.py:45 temba/triggers/views.py:128
+msgid "Keywords must be a single word containing only letter and numbers"
+msgstr "Các từ khóa phải là từ đơn chỉ chứa chữ cái và số"
+
+#: temba/triggers/views.py:55
+msgid "Another active trigger uses this keyword, keywords must be unique"
+msgstr ""
+
+#: temba/triggers/views.py:76
+msgid "Only Groups"
+msgstr "Các nhóm duy nhất"
+
+#: temba/triggers/views.py:82
+msgid ""
+"Only apply this trigger to contacts in these groups. (leave empty to apply "
+"to all contacts)"
+msgstr ""
+
+#: temba/triggers/views.py:100
+msgid ""
+"An active trigger already exists, triggers must be unique for each group"
+msgstr ""
+
+#: temba/triggers/views.py:112 temba/triggers/views.py:161
+msgid "The first word of the message text"
+msgstr "Từ đầu tiên của văn bản tin nhắn"
+
+#: temba/triggers/views.py:134
+msgid ""
+"An active trigger uses this keyword in some groups, keywords must be unique "
+"for each contact group"
+msgstr ""
+
+#: temba/triggers/views.py:163
+msgid "Group to Join"
+msgstr "Nhóm để gia nhập"
+
+#: temba/triggers/views.py:164
+msgid "The group the contact will join when they send the above keyword"
+msgstr "Nhóm mà người liên hệ sẽ gia nhập khi họ gửi từ khóa trên"
+
+#: temba/triggers/views.py:166
+msgid "Response"
+msgstr "Phản hồi"
+
+#: temba/triggers/views.py:167
+msgid "The message to send in response after they join the group (optional)"
+msgstr "Tin nhắn gửi phản hồi sau khi họ gia nhập nhóm (tùy chọn)"
+
+#: temba/triggers/views.py:190
+msgid "The groups and contacts the flow will be broadcast to"
+msgstr ""
+
+#: temba/triggers/views.py:241
+msgid "Archive Triggers"
+msgstr ""
+
+#: temba/triggers/views.py:242
+msgid "Restore Triggers"
+msgstr ""
+
+#: temba/triggers/views.py:281 temba/triggers/views.py:285
+msgid "Create Trigger"
+msgstr ""
+
+#: temba/triggers/views.py:422
+msgid "Active"
+msgstr "Hoạt động"
+
+#: temba/triggers/views.py:430
+msgid "Triggers"
+msgstr ""
+
+#: temba/triggers/views.py:483
+msgid "Join Keyword"
+msgstr ""
+
+#: temba/triggers/views.py:483
+msgid "The first word of the message"
+msgstr "Từ đầu tiên của tin nhắn"
+
+#: temba/triggers/views.py:512
+msgid "Create Schedule"
+msgstr "Tạo lịch"
+
+#: temba/values/models.py:273
+#, python-format
+msgid "Summary of contact fields with value type of %s is not supported"
+msgstr "Bản tóm tắt các trường liên lạc với kiểu giá trị %s chưa được hỗ trợ"
+
+#: temba/values/models.py:446
+msgid ""
+"Cannot segment on location for field that is not a State or District type"
+msgstr "Không thể phân vùng cho trường không phải là bang hoặc quận"
+
+#: temba/values/models.py:450
+msgid ""
+"Cannot segment by location until country has been selected for organization"
+msgstr "Không thể phân vùng cho đến khi quốc gia được chọn cho tổ chức"
+
+#: temba/values/models.py:465
+msgid "You must specify a parent state to segment results by district"
+msgstr "Bạn phải cụ thể một bang gốc để phân kết quả theo quận"
+
+#: temba/values/models.py:543
+msgid "All"
+msgstr "Tất cả"
+
+#: templates/channels/email/base.html:7
+msgid "Change Alert Settings"
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:8
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the Android phone for %(org_name)s has been "
+"connected back to\n"
+"        internet and has been able to sync with the %(brand)s servers "
+"recently at \n"
+"      "
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:16
+msgid ""
+"\n"
+"        This email is to announce that your android phone connection problem "
+"reported last time was resolved.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:22
+#: templates/channels/email/power_alert.html:20
+#: templates/channels/email/power_charging_alert.html:16
+#: templates/channels/email/sms_alert.html:40
+#, python-format
+msgid ""
+"\n"
+"        You can check the current status of your %(channel_name)s by "
+"visiting its\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:26
+#: templates/channels/email/disconnected_alert.html:28
+#: templates/channels/email/power_alert.html:24
+#: templates/channels/email/power_charging_alert.html:20
+#: templates/channels/email/sms_alert.html:44
+msgid "status page."
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:30
+#: templates/channels/email/connected_alert.txt:19
+#: templates/channels/email/disconnected_alert.html:32
+#: templates/channels/email/power_alert.html:28
+#: templates/channels/email/power_charging_alert.html:24
+#: templates/channels/email/power_charging_alert.txt:15
+#: templates/channels/email/sms_alert.html:48
+msgid "Thanks!"
+msgstr ""
+
+#: templates/channels/email/connected_alert.html:32
+#: templates/channels/email/connected_alert.txt:21
+#: templates/channels/email/disconnected_alert.html:34
+#: templates/channels/email/disconnected_alert.txt:25
+#: templates/channels/email/power_alert.html:30
+#: templates/channels/email/power_alert.txt:23
+#: templates/channels/email/power_charging_alert.html:26
+#: templates/channels/email/power_charging_alert.txt:18
+#: templates/channels/email/sms_alert.html:50
+#: templates/channels/email/sms_alert.txt:34
+#: templates/flows/email/flow_export_download.html:20
+#: templates/flows/email/flow_export_download.txt:13
+#, python-format
+msgid "The %(brand)s Team"
+msgstr ""
+
+#: templates/channels/email/connected_alert.txt:4
+#, python-format
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+"\n"
+"We've noticed that the Android phone for %(org_name)s has been connected "
+"back to internet and has been able to sync with the %(brand)s servers "
+"recently at\n"
+msgstr ""
+
+#: templates/channels/email/connected_alert.txt:12
+msgid ""
+"This email is to announce that your android phone connection problem "
+"reported last time was resolved."
+msgstr ""
+
+#: templates/channels/email/connected_alert.txt:14
+#, python-format
+msgid ""
+"\n"
+"   You can check the current status of your %(channel_name)s by visiting its "
+"status page at:\n"
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.html:8
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the Android phone for %(org_name)s hasn't "
+"contacted the %(brand)s servers since\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.html:13
+msgid ""
+"This is usually due to your phone being unable to connect to the internet."
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.html:17
+msgid ""
+"\n"
+"        Please check on your phone to make sure it is connected to a WiFi "
+"network or cellular data.\n"
+"        If problems persist you may want to try turning the phone off then "
+"back on.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.html:24
+#, python-format
+msgid ""
+"\n"
+"        You can check the current status of your %(channel.get_name)s by "
+"visiting its\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.txt:4
+#, python-format
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+"\n"
+"Your Android phone for %(org_name)s hasn't contacted the %(brand)s servers "
+"since\n"
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.txt:12
+msgid ""
+"\n"
+"This is usually an indication that your phone has lost its connection to the "
+"internet.\n"
+"\n"
+"Please check on your phone to make sure it is connected to WiFi or a "
+"cellular data network.  If problems persist you may want to try turning the "
+"phone off then back on.\n"
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.txt:18
+#: templates/channels/email/power_alert.txt:15
+#: templates/channels/email/sms_alert.txt:27
+#, python-format
+msgid ""
+"\n"
+"   You can check the current status of %(channel_name)s by visiting its "
+"status page at:\n"
+msgstr ""
+
+#: templates/channels/email/disconnected_alert.txt:23
+#: templates/channels/email/power_alert.txt:20
+#: templates/channels/email/sms_alert.txt:32
+#: templates/contacts/email/contacts_export_download.html:13
+#: templates/contacts/email/contacts_export_download.txt:11
+#: templates/flows/email/flow_export_download.html:18
+#: templates/flows/email/flow_export_download.txt:11
+#: templates/msgs/email/msg_export_download.html:13
+#: templates/msgs/email/msg_export_download.txt:11
+msgid "Thanks,"
+msgstr ""
+
+#: templates/channels/email/power_alert.html:6
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the Android phone for %(org_name)s is getting low "
+"on power and isn't plugged in.\n"
+"        If it runs out of power then you will stop receiving messages for "
+"%(brand)s.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/power_alert.html:13
+#, python-format
+msgid ""
+"\n"
+"        Please check on your phone to make sure it is plugged into a "
+"reliable power source.\n"
+"        The current power level is %(power_level)s%%, you will only receive "
+"this notification when the power drops below 25%%.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/power_alert.txt:3
+#, fuzzy, python-format
+#| msgid "Join %(name)s"
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+msgstr "Tham gia %(name)s"
+
+#: templates/channels/email/power_alert.txt:7
+#, python-format
+msgid ""
+"\n"
+"We've noticed that your Android phone, %(channel_name)s, is getting low on "
+"power and isn't plugged in.  If it runs out of power then you will stop "
+"receiving messages for %(brand)s.\n"
+msgstr ""
+
+#: templates/channels/email/power_alert.txt:11
+#, python-format
+msgid ""
+"\n"
+"Please check on your phone to make sure it is plugged into a reliable power "
+"source.  You will only receive this notification when the power drops below "
+"25%%.  The current power level is %(power_level)s%%.\n"
+msgstr ""
+
+#: templates/channels/email/power_charging_alert.html:6
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the Android phone for %(org_name)s is now "
+"charging the battery.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/power_charging_alert.html:12
+msgid ""
+"This email is to announce that your android phone battery low reported last "
+"time was resolved. Now the battery is charging."
+msgstr ""
+
+#: templates/channels/email/power_charging_alert.txt:3
+#, python-format
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+"\n"
+"We've noticed that the Android phone for %(org.name)s is now charging the "
+"battery.\n"
+"This email is to announce that your android phone battery low reported last "
+"time was resolved. Now the battery is charging.\n"
+msgstr ""
+
+#: templates/channels/email/power_charging_alert.txt:10
+#, python-format
+msgid ""
+"\n"
+"   You can check the current status of your %(channel_name)s by visiting "
+"its\n"
+msgstr ""
+
+#: templates/channels/email/sms_alert.html:8
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the Android phone for %(org_name)s is having "
+"trouble sending text messages.  This might be\n"
+"        a temporary problem due to your cellular network, or could be an "
+"indication that your phone is out of credit.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/sms_alert.html:15
+#, python-format
+msgid ""
+"\n"
+"        Please check on your phone to make sure it has sufficient credit and "
+"can send text messages.  If problems persist\n"
+"        you may want to try turning the phone off then back on.  Currently "
+"your Android phone has <strong>%(unsent_count)s</strong>\n"
+"        messages which haven't sent in over an hour.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/sms_alert.html:24
+#, python-format
+msgid ""
+"\n"
+"        We've noticed that the %(channel_type)s for %(org_name)s is having "
+"trouble sending text messages.  This might be\n"
+"        a temporary problem due to network communication to "
+"%(channel_type)s, or could be an indication that your %(channel_type)s is "
+"out of credit.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/sms_alert.html:31
+#, python-format
+msgid ""
+"\n"
+"        Please check on your %(channel_type)s to make sure it has sufficient "
+"credit and can send text messages.  Currently your %(channel_type)s has "
+"<strong>%(unsent_count)s</strong>\n"
+"        messages which haven't sent in over an hour.\n"
+"      "
+msgstr ""
+
+#: templates/channels/email/sms_alert.txt:5
+#, python-format
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+"\n"
+"We've noticed that the Android phone for %(org_name)s is having trouble "
+"sending text messages.  This might be a temporary problem due to your "
+"cellular network, or could be an indication that your phone is out of "
+"credit.\n"
+msgstr ""
+
+#: templates/channels/email/sms_alert.txt:11
+#, python-format
+msgid ""
+"\n"
+"Please check on your phone to make sure it has sufficient credit and can "
+"send text messages.  If problems persist you may want to try turning the "
+"phone off then back on.  Currently your Android phone has %(unsent_count)s "
+"messages which haven't sent in over an hour.\n"
+msgstr ""
+
+#: templates/channels/email/sms_alert.txt:16
+#, python-format
+msgid ""
+"\n"
+"Hi %(org_name)s,\n"
+"\n"
+"We've noticed that the %(channel_type)s for %(org_name)s is having trouble "
+"sending text messages.  This might be a temporary problem due to network "
+"communication to %(channel_type)s, or could be an indication that your "
+"%(channel_type)s is out of credit.\n"
+msgstr ""
+
+#: templates/channels/email/sms_alert.txt:22
+#, python-format
+msgid ""
+"\n"
+"Please check on your %(channel_type)s to make sure it has sufficient credit "
+"and can send text messages. Currently your %(channel_type)s has "
+"%(unsent_count)s messages which haven't sent in over an hour.\n"
+msgstr ""
+
+#: templates/contacts/email/contacts_export_download.html:4
+#: templates/flows/email/flow_export_download.html:4
+#: templates/msgs/email/msg_export_download.html:4
+msgid "Hi there!"
+msgstr ""
+
+#: templates/contacts/email/contacts_export_download.html:6
+msgid "Your contacts export is ready."
+msgstr ""
+
+#: templates/contacts/email/contacts_export_download.html:8
+#: templates/flows/email/flow_export_download.html:13
+#: templates/msgs/email/msg_export_download.html:8
+msgid "Download your Excel file here:"
+msgstr ""
+
+#: templates/contacts/email/contacts_export_download.html:15
+#: templates/contacts/email/contacts_export_download.txt:13
+#: templates/msgs/email/msg_export_download.html:15
+#: templates/msgs/email/msg_export_download.txt:13
+#, python-format
+msgid "The %(brand)s Team "
+msgstr ""
+
+#: templates/contacts/email/contacts_export_download.txt:4
+#, python-format
+msgid ""
+"\n"
+"Hi there!\n"
+"\n"
+"You can download your %(brand)s contacts export by clicking on the following "
+"link:\n"
+msgstr ""
+
+#: templates/flows/email/flow_export_download.html:6
+msgid "Your export for the following flows is ready."
+msgstr ""
+
+#: templates/flows/email/flow_export_download.txt:4
+#, python-format
+msgid ""
+"\n"
+"Hi there!\n"
+"\n"
+"You can download your %(brand)s flow results by clicking on the following "
+"link:\n"
+msgstr ""
+
+#: templates/msgs/email/msg_export_download.html:6
+msgid "Your message export is ready."
+msgstr ""
+
+#: templates/msgs/email/msg_export_download.txt:4
+#, python-format
+msgid ""
+"\n"
+"Hi there!\n"
+"\n"
+"You can download your %(brand)s message export by clicking on the following "
+"link:\n"
+msgstr ""
+
+#: templates/orgs/email/invitation_email.html:8
+#, python-format
+msgid ""
+"\n"
+"      You've been invited to join %(brand)s as a member of %(org)s.\n"
+"      <br/>\n"
+"      To accept the invitation, <a href='%(link)s/org/join/"
+"%(secret)s/'>click here</a>.\n"
+"  "
+msgstr ""
+
+#: templates/orgs/email/invitation_email.txt:3
+#, python-format
+msgid ""
+"\n"
+"You've been invited to join %(org)s on %(brand)s\n"
+msgstr ""
+
+#: templates/orgs/email/invitation_email.txt:7
+msgid "Click this link to join"
+msgstr ""
+
+#~ msgid "You do not have any languages configured for your organization."
+#~ msgstr "Bạn không có ngôn ngữ nào cấu hình cho tổ chức của bạn."
+
+#~ msgid "Language code '%s' is not one of supported for organization. (%s)"
+#~ msgstr "Mã \"%s\" không được hỗ trợ cho tổ chức. (%s)"
+
+#~ msgid "Android"
+#~ msgstr "Android"
+
+#~ msgid "Twilio"
+#~ msgstr "Twilio"
+
+#~ msgid "Africa's Talking"
+#~ msgstr "Africa's Talking"
+
+#~ msgid "Zenvia"
+#~ msgstr "Zenvia"
+
+#~ msgid "Nexmo"
+#~ msgstr "Nexmo"
+
+#~ msgid "Infobip"
+#~ msgstr "Infobip"
+
+#~ msgid "Verboice"
+#~ msgstr "Verboice"
+
+#~ msgid "Hub9"
+#~ msgstr "Hub9"
+
+#~ msgid "Vumi"
+#~ msgstr "Vumi"
+
+#~ msgid "Kannel"
+#~ msgstr "Kannel"
+
+#~ msgid "External"
+#~ msgstr "Bên ngoài"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Shaqodoon"
+#~ msgstr "Shaqodoon"
+
+#~ msgid "Belgium"
+#~ msgstr "Bỉ"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Finland"
+#~ msgstr "Phần Lan"
+
+#~ msgid "Norway"
+#~ msgstr "Na Uy"
+
+#~ msgid "Poland"
+#~ msgstr "Ba Lan"
+
+#~ msgid "Spain"
+#~ msgstr "Tây Ban Nha"
+
+#~ msgid "Sweden"
+#~ msgstr "Thụy Điển"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Vương Quốc Anh"
+
+#~ msgid "United States"
+#~ msgstr "Mỹ"
+
+#~ msgid "Australia"
+#~ msgstr "Úc"
+
+#~ msgid "Austria"
+#~ msgstr "Áo"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Ireland"
+#~ msgstr "Ai Len"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lithuania"
+
+#~ msgid "Switzerland"
+#~ msgstr "Thụy Sĩ"
+
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Cộng hòa Séc"
+
+#~ msgid "Denmark"
+#~ msgstr "Đan Mạch"
+
+#~ msgid "France"
+#~ msgstr "Pháp"
+
+#~ msgid "Germany"
+#~ msgstr "Đức"
+
+#~ msgid "Hungary"
+#~ msgstr "Hungary"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonesia"
+
+#~ msgid "Israel"
+#~ msgstr "Israel"
+
+#~ msgid "Italy"
+#~ msgstr "Ý"
+
+#~ msgid "Latvia"
+#~ msgstr "Latvia"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaysia"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexico"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Netherlands"
+#~ msgstr "Hà Lan"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Romania"
+#~ msgstr "Romania"
+
+#~ msgid "Russia"
+#~ msgstr "Nga"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovakia"
+
+#~ msgid "South Africa"
+#~ msgstr "Nam Phi"
+
+#~ msgid "South Korea"
+#~ msgstr "Hàn Quốc"
+
+#~ msgid "POST Required"
+#~ msgstr "Yêu cầu POST"
+
+#~ msgid "The claim code from your Android phone"
+#~ msgstr "Mã xác nhận từ điện thoại Android của bạn"
+
+#~ msgid "The phone number of the phone"
+#~ msgstr "Số điện thoại"
+
+#~ msgid "Invalid claim code, please check and try again."
+#~ msgstr "Mã xác nhận không đúng, hãy kiểm tra và thử lại."
+
+#~ msgid "Invalid phone number, try again."
+#~ msgstr "Số điện thoại không đúng, hãy thử lại."
+
+#~ msgid "Number"
+#~ msgstr "Số"
+
+#~ msgid "Phone number of this service"
+#~ msgstr "Số điện thoại của dịch vụ này"
+
+#~ msgid "Phone number of this device"
+#~ msgstr "Số điện thoại của thiết bị này"
+
+#~ msgid "Auto Follow"
+#~ msgstr "Tự động theo dõi"
+
+#~ msgid "Automatically follow any account that follows your account"
+#~ msgstr "Tự động theo dõi bất kỳ tài khoản nào theo dõi tài khoản của bạn"
+
+#~ msgid "Handle"
+#~ msgstr "Giải quyết"
+
+#~ msgid "Twitter handle of this channel"
+#~ msgstr "Tài khoản Twitter đang tương tác qua kênh này."
+
+#~ msgid "Disable Bulk Sending"
+#~ msgstr "Vô hiệu hóa gửi tin số lượng lớn"
+
+#~ msgid "Enable Bulk Sending"
+#~ msgstr "kích hoạt gửi tin số lượng lớn."
+
+#~ msgid "Disable Voice Calling"
+#~ msgstr "Vô hiệu cuộc thoại"
+
+#~ msgid "Remove Android"
+#~ msgstr "Gỡ bỏ Android"
+
+#~ msgid ""
+#~ "We have disconnected your Twilio number. If you do not need this number "
+#~ "you can delete it from the Twilio website."
+#~ msgstr ""
+#~ "Chúng tôi đã ngừng kết nối số Twilio của bạn. Nếu bạn không cần số này "
+#~ "bạn có thể xóa nó từ website Twilio"
+
+#~ msgid "Your phone number has been removed."
+#~ msgstr "Số điện thoại của bạn đã được gỡ bỏ."
+
+#~ msgid ""
+#~ "We encountered an error removing your channel, please try again later."
+#~ msgstr ""
+#~ "Chúng tôi đã gặp phải một lỗi trong khi gỡ bỏ kênh của bạn, xin hãy thử "
+#~ "lại."
+
+#~ msgid "or"
+#~ msgstr "hoặc"
+
+#~ msgid "A connection to a Nexmo account is required"
+#~ msgstr "Một kết nối với tài khoản Nexmo được yêu cầu"
+
+#~ msgid "Sorry, a caller cannot be added for that number"
+#~ msgstr "Xin lỗi, một người không thể được thêm cho số đó"
+
+#~ msgid "The Zenvia short code"
+#~ msgstr "Mã ngắn Zenvia"
+
+#~ msgid "Your account name on Zenvia"
+#~ msgstr "Tên tài khoản của bạn trên Zenvia"
+
+#~ msgid "Your api code on Zenvia for authentication"
+#~ msgstr "Mã api của bạn trên Zenvia để đăng nhập"
+
+#~ msgid "Connect Zenvia Account"
+#~ msgstr "Kết nối tài khoản Zenvia"
+
+#~ msgid "No org for this user, cannot claim"
+#~ msgstr "Người dùng không thuộc tổ chức, không thể xác nhận"
+
+#~ msgid "The phone number or short code you are connecting"
+#~ msgstr "Số điện thoại hoặc mã ngắn mà bạn đang kết nối"
+
+#~ msgid "The country this phone number is used in"
+#~ msgstr "Số điện thoại này được sử dụng tại quốc gia"
+
+#~ msgid "Send URL"
+#~ msgstr "Gửi URL"
+
+#~ msgid ""
+#~ "The publicly accessible URL for your Kannel instance for sending. ex: "
+#~ "https://kannel.macklemore.co/cgi-bin/sendsms"
+#~ msgstr ""
+#~ "Mọi người có thể truy nhập đến tài khoản Kannel thông qua. ex: https://"
+#~ "kannel.macklemore.co/cgi-bin/sendsms"
+
+#~ msgid ""
+#~ "The username to use to authenticate to Kannel, if left blank we will "
+#~ "generate one for you"
+#~ msgstr ""
+#~ "Tên người dùng sử dụng để xác nhận tới Kannel, nếu để trống chúng tôi sẽ "
+#~ "tạo một tên cho bạn"
+
+#~ msgid ""
+#~ "The password to use to authenticate to Kannel, if left blank we will "
+#~ "generate one for you"
+#~ msgstr ""
+#~ "Mật khẩu sử dụng để xác thực cho Kannel, nếu để trống chúng tôi sẽ tạo "
+#~ "cho bạn"
+
+#~ msgid "Connect Kannel Service"
+#~ msgstr "Kết nối dịch vụ Kannel"
+
+#~ msgid ""
+#~ "The URL we will call when sending messages, with variable substitutions"
+#~ msgstr "Đường dẫn chúng tôi sẽ gọi khi gửi tin nhắn, với các biến thay thế"
+
+#~ msgid ""
+#~ "The URL we will POST to when sending messages, with variable substitutions"
+#~ msgstr ""
+#~ "Đường đẫn dùng phương thức \"POST\" khi gửi tin nhắn, với các biến có thể "
+#~ "thay đổi"
+
+#~ msgid ""
+#~ "The phone number or short code you are connecting with country code. ex: "
+#~ "+250788123124"
+#~ msgstr ""
+#~ "Số điện thoại hoặc mã ngắn mà bạn đang kết nối với mã quốc gia. Vd: "
+#~ "+250788123124"
+
+#~ msgid "Username"
+#~ msgstr "Tên người dùng"
+
+#~ msgid "The username provided by the provider to use their API"
+#~ msgstr "Tên người dùng cung cấp bởi nhà cung cấp để sử dụng API của họ"
+
+#~ msgid "Password"
+#~ msgstr "Mật khẩu"
+
+#~ msgid "The password provided by the provider to use their API"
+#~ msgstr "Mật khẩu cung cấp bởi nhà cung cấp để sử dụng API của họ"
+
+#~ msgid ""
+#~ "Invalid phone number, please include the country code. ex: +250788123123"
+#~ msgstr "Số điện thoại không đúng, hãy thêm mã quốc gia. Vd: +250788123123"
+
+#~ msgid "Connect Infobip"
+#~ msgstr "Kết nối Infobip"
+
+#~ msgid ""
+#~ "The phone number with country code or short code you are connecting. ex: "
+#~ "+250788123124 or 15543"
+#~ msgstr ""
+#~ "Số điện thoại với mã quốc gia hoặc mã ngắn mà bạn đang kết nối. Vd: "
+#~ "+250788123124 hoặc 15543"
+
+#~ msgid "Channel Name"
+#~ msgstr "Tên kênh"
+
+#~ msgid "The Verboice channel that will be handling your calls"
+#~ msgstr "Kênh Verboice sẽ xử lý những cuộc gọi của bạn"
+
+#~ msgid "Connect Verboice"
+#~ msgstr "Kết nối Verboice"
+
+#~ msgid "Connect Hub9"
+#~ msgstr "Kết nối Hub9"
+
+#~ msgid "The short code you are connecting with."
+#~ msgstr "Mã ngắn mà bạn đang kết nối"
+
+#~ msgid "URL"
+#~ msgstr "Đường dẫn URL"
+
+#~ msgid "The url provided to deliver messages"
+#~ msgstr "Đường dẫn URL cung cấp để gửi tin nhắn"
+
+#~ msgid "The username provided to use their API"
+#~ msgstr "Tên người dùng cung cấp để sử dụng API"
+
+#~ msgid "The password provided to use their API"
+#~ msgstr "Mật khẩu cung cấp để sử dụng API của họ"
+
+#~ msgid "The key provided to sign requests"
+#~ msgstr "Khóa được cung cấp để xác minh yêu cầu."
+
+#~ msgid "Connect Shaqodoon"
+#~ msgstr "Kết nối Shaqodoon"
+
+#~ msgid "Account Key"
+#~ msgstr "Mã tài khoản"
+
+#~ msgid "Your Vumi account key as found under Account -> Details"
+#~ msgstr ""
+#~ "Mã tài khoản Vumi của bạn có thể được tìm thấy tại Tài khoản -> Chi tiết"
+
+#~ msgid "Conversation Key"
+#~ msgstr "Mã chuyển đổi"
+
+#~ msgid "The key for your Vumi conversation, can be found in the URL"
+#~ msgstr ""
+#~ "Mã cho cuộc trò chuyện Vumi của bạn, có được tìm thấy trong đường dẫn URL"
+
+#~ msgid "Transport Name"
+#~ msgstr "Tên truyền dẫn."
+
+#~ msgid ""
+#~ "The name of the Vumi transport you will use to send and receive messages"
+#~ msgstr "Tên của truyền dẫn Vumi được bạn dùng để gửi và nhận tin nhắn"
+
+#~ msgid "Connect Vumi"
+#~ msgstr "Kết nối Vumi"
+
+#~ msgid "Your short code on Africa's Talking"
+#~ msgstr "Mã ngắn của bạn trên Africa's Talking"
+
+#~ msgid "Your username on Africa's Talking"
+#~ msgstr "Tên người dùng trên Africa's Talking"
+
+#~ msgid "Your api key, should be 64 characters"
+#~ msgstr "Mã api của bạn, nên là 64 ký tự"
+
+#~ msgid "Connect Africa's Talking Account"
+#~ msgstr "Kết nối tài khoản Africa's Talking"
+
+#~ msgid "Register Android Phone"
+#~ msgstr "Đăng ký điện thoại Android"
+
+#~ msgid "Claim Channel"
+#~ msgstr "Xác nhận kênh"
+
+#~ msgid "Sorry, you can only add numbers for the same country (%s)"
+#~ msgstr "Xin lỗi, bạn chỉ có thể thêm số từ cùng quốc gia (%s)"
+
+#~ msgid "Channels"
+#~ msgstr "Những kênh"
+
+#~ msgid "Unknown"
+#~ msgstr "Không xác định"
+
+#~ msgid "The area code you want to search for a new number in"
+#~ msgstr "Mã vùng được dùng để tìm kiếm số mới"
+
+#~ msgid "The phone number being added"
+#~ msgstr "Số điện thoại đang được thêm"
+
+#~ msgid ""
+#~ "Sorry, you need to have an organization to add numbers. You can still "
+#~ "test things out for free using an Android phone."
+#~ msgstr ""
+#~ "Xin lỗi, bạn cần có một tổ chức để thêm số. Bạn vẫn có thể kiểm tra miễn "
+#~ "phí sử dụng một điện thoại Android."
+
+#~ msgid ""
+#~ "Sorry, the number you chose is not supported. You can still deploy in any "
+#~ "country using your own SIM card and an Android phone."
+#~ msgstr ""
+#~ "Xin lỗi, số mà bạn chọn không được hỗ trợ. Bạn vẫn có thể sử dụng ở bất "
+#~ "kỳ quốc gia nào sử dụng thẻ SIM của bạn và một điện thoại Android."
+
+#~ msgid "That number is already connected (%s)"
+#~ msgstr "Số điện thoại này đã được kết nối (%s)"
+
+#~ msgid "That number is already connected to another account - %s (%s)"
+#~ msgstr "Số điện thoại này đã được kết nối với một tài khoản khác - %s (%s)"
+
+#~ msgid ""
+#~ "An error occurred connecting your Twilio number, try removing your Twilio "
+#~ "account, reconnecting it and trying again."
+#~ msgstr ""
+#~ "Một lỗi đã xảy ra khi kết nối số Twilio của bạn, hãy thử gở bõ tài khoản "
+#~ "Twilio, kết nối lại và thử lại."
+
+#~ msgid "That number is not currently supported."
+#~ msgstr "Số này hiện tại không được hỗ trợ"
+
+#~ msgid "Normal"
+#~ msgstr "Bình thường"
+
+#~ msgid "The file name for our export"
+#~ msgstr "Tên tệp để xuất ra"
+
+#~ msgid "Contacts %d"
+#~ msgstr "Những liên lạc %d"
+
+#~ msgid "Restore Contacts"
+#~ msgstr "Khôi phục những liên lạc"
+
+#~ msgid "Archive Contacts"
+#~ msgstr "Lưu liên lạc"
+
+#~ msgid "Message flow"
+#~ msgstr "Luồng tin nhắn"
+
+#~ msgid "Single Message Flow"
+#~ msgstr "Luồng tin nhắn đơn"
+
+#~ msgid "Phone call flow"
+#~ msgstr "Luồng cuộc gọi"
+
+#~ msgid "The name for this flow"
+#~ msgstr "Tên cho luồng này"
+
+#~ msgid "Any labels on this flow"
+#~ msgstr "Bất kỳ nhãn nào trên luồng này"
+
+#~ msgid "The type of node this flow starts with"
+#~ msgstr "Loại điểm của luồng này bắt đầu bằng"
+
+#~ msgid "Whether this flow is archived"
+#~ msgstr "Nếu luồng này đã được lưu trữ"
+
+#~ msgid "The type of this flow"
+#~ msgstr "Loại luồng này"
+
+#~ msgid "Minutes of inactivity that will cause expiration from flow"
+#~ msgstr "Thời gian không hoạt động sẽ kết thúc luồng này"
+
+#~ msgid "Ignore keyword triggers while in this flow"
+#~ msgstr "Bỏ qua kích hoạt từ khóa khi ở trong luồng này"
+
+#~ msgid "When this item was saved"
+#~ msgstr "Vào lúc tin nhắn này được lưu"
+
+#~ msgid "The user which last saved this flow"
+#~ msgstr "Người dùng lưu luồng này cuối cùng"
+
+#~ msgid "The primary language for editing this flow"
+#~ msgstr "Ngôn ngữ chính chỉnh sửa luồng này"
+
+#~ msgid "%s has exited this flow"
+#~ msgstr "%s đã rời luồng này"
+
+#~ msgid "The label for this field"
+#~ msgstr "Nhãn cho trường này"
+
+#~ msgid ""
+#~ "The URL that will be called with the user's response before we run our "
+#~ "rules"
+#~ msgstr ""
+#~ "URL được gọi bởi phản hồi của người dùng trước khi thực hiện những quy tắc"
+
+#~ msgid "The JSON encoded actions for this action set"
+#~ msgstr "JSON đã mã hóa những hành động cho tập hợp này"
+
+#~ msgid "When this ruleset was originally created"
+#~ msgstr "Vào lúc tập quy tắc được khởi tạo"
+
+#~ msgid "When this ruleset was last modified"
+#~ msgstr "Vào lúc tập quy tắc này được thay đổi lần cuối"
+
+#~ msgid "Valid"
+#~ msgstr "Hợp lệ"
+
+#~ msgid ""
+#~ "The RuleSet that will interpret the response to this action (optional)"
+#~ msgstr "Tập quy tắc sẽ biên dịch sự phản hồi cho hành động này (tùy chọn)"
+
+#~ msgid "When this action was originally created"
+#~ msgstr "Hành động này được khởi tạo vào lúc"
+
+#~ msgid "When this action was last modified"
+#~ msgstr "Hành động này được thay đổi lần cuối vào lúc"
+
+#~ msgid "The JSON flow definition"
+#~ msgstr "Định nghĩa luồng JSON"
+
+#~ msgid "The call that handled this flow run, only for voice flows"
+#~ msgstr "Yêu cầu điều khiển luồng này chạy, chỉ cho phép luồng âm thanh"
+
+#~ msgid "Whether this flow run is currently active"
+#~ msgstr "Nếu luồng chạy này hiện tại đang hoạt động"
+
+#~ msgid "When this flow run was created"
+#~ msgstr "Luồng chạy này được tạo vào lúc"
+
+#~ msgid "When this flow run will expire"
+#~ msgstr "Luồng chạy này sẽ kết thúc vào lúc"
+
+#~ msgid "When this flow run expired"
+#~ msgstr "Luồng chạy này kết thúc vào lúc"
+
+#~ msgid "The flows to export"
+#~ msgstr "Những luồng để xuất"
+
+#~ msgid "The log text"
+#~ msgstr "Văn bản ghi lại"
+
+#~ msgid "When this action log was created"
+#~ msgstr "Nhật kí hành động này được tạo vào lúc"
+
+#~ msgid "The UUID of the ActionSet or RuleSet for this step"
+#~ msgstr "UUID của tập hành động hoặc tập qui tắc cho bước này"
+
+#~ msgid "The category label that matched on this ruleset, null on ActionSets"
+#~ msgstr "Nhãn hạng mục phù hợp với tập qui tắc, null nếu là tập hành động"
+
+#~ msgid ""
+#~ "The value that was matched in our category for this ruleset, null on "
+#~ "ActionSets"
+#~ msgstr ""
+#~ "Giá trị phù hợp hạng mục của chúng ta trong tập qui tắc này, null nếu là "
+#~ "tập hành động"
+
+#~ msgid ""
+#~ "The decimal value that was matched in our category for this ruleset, null "
+#~ "on ActionSets or if a non numeric rule was matched"
+#~ msgstr ""
+#~ "Giá trị thập phân phù hợp trong hạng mục của chúng ta với tập qui tắc "
+#~ "này, null nếu là tập hành động hoặc nếu một qui tắc không phải bằng số "
+#~ "phù hợp"
+
+#~ msgid "The uuid of the next step type we took"
+#~ msgstr "UUID của loại bước tiếp theo chúng ta có"
+
+#~ msgid "When the user arrived at this step in the flow"
+#~ msgstr "Người dùng đến bước này trong luồng vào lúc"
+
+#~ msgid "When the user left this step in the flow"
+#~ msgstr "Khi người dùng rời khỏi bước này trong luồng"
+
+#~ msgid ""
+#~ "Any messages that are associated with this step (either sent or received)"
+#~ msgstr "Bất kì tin nhắn được liên kết với bước này (cả gửi và nhận)"
+
+#~ msgid "The flow that is being started"
+#~ msgstr "Luồng đang bắt đầu"
+
+#~ msgid "Groups that will start the flow"
+#~ msgstr "Các nhóm sẽ bắt đầu luồng"
+
+#~ msgid "Contacts that will start the flow"
+#~ msgstr "Những người sẽ bắt đầu luồng"
+
+#~ msgid "Whether to restart any participants already in this flow"
+#~ msgstr "Liệu có thể khởi động bất kì người tham gia đã có trong luồng này"
+
+#~ msgid "The status of this flow start"
+#~ msgstr "Trạng thái của sự bắt đầu luồng này"
+
+#~ msgid "The name of this flow label"
+#~ msgstr "Tên của nhãn luồng này"
+
+#~ msgid "\"%s\" would be sent to %s"
+#~ msgstr "\"%s\" được gửi tới %s"
+
+#~ msgid "Group '%s' created"
+#~ msgstr "Nhóm '%s' được tạo"
+
+#~ msgid "Added %s to %s"
+#~ msgstr "Đã thêm %s vào %s"
+
+#~ msgid "Removed %s from %s"
+#~ msgstr "Bỏ %s từ %s"
+
+#~ msgid "Label '%s' created"
+#~ msgstr "Nhãn '%s' được tạo"
+
+#~ msgid "Added %s label to msg '%s'"
+#~ msgstr "Đã thêm nhãn %s vào tin nhắn '%s'"
+
+#~ msgid "Played recorded message for \"%s\""
+#~ msgstr "Mở tin nhắn đăng kí cho \"%s\""
+
+#~ msgid "Read message \"%s\""
+#~ msgstr "Đọc tin nhắn \"%s\""
+
+#~ msgid "Added %d contact(s) to '%s' flow"
+#~ msgstr "Đã thêm %d người vào luồng '%s'"
+
+#~ msgid "Setting language to %s"
+#~ msgstr "Thiết lập ngôn ngữ %s"
+
+#~ msgid "Starting other flow %s"
+#~ msgstr "Đang bắt đầu luồng %s khác"
+
+#~ msgid "Updated %s to '%s'"
+#~ msgstr "Đã cập nhật %s thành '%s'"
+
+#~ msgid "Others"
+#~ msgstr "Khác"
+
+#~ msgid "Nexmo Error # %s: %s"
+#~ msgstr "Lỗi Nexmo # %s: %s"
+
+#~ msgid "Sample Flow"
+#~ msgstr "Luồng mẫu"
+
+#~ msgid "Your first name"
+#~ msgstr "Tên của bạn"
+
+#~ msgid "Your last name"
+#~ msgstr "Họ của bạn"
+
+#~ msgid "Your email address"
+#~ msgstr "Địa chỉ email của bạn"
+
+#~ msgid "The timezone your organization is in"
+#~ msgstr "Múi giờ tổ chức của bạn"
+
+#~ msgid "Your password, at least eight letters please"
+#~ msgstr "Mật khẩu của bạn, vui lòng nhập ít nhất tám chữ cái"
+
+#~ msgid "Organization"
+#~ msgstr "Tổ chức"
+
+#~ msgid "The name of your organization"
+#~ msgstr "Tên tổ chức của bạn"
+
+#~ msgid "That email address is already used"
+#~ msgstr "Địa chỉ email đó đã được sử dụng"
+
+#~ msgid "Passwords must contain at least 8 letters."
+#~ msgstr "Mật khẩu phải chứa ít nhất 8 chữ cái."
+
+#~ msgid "The first name of the organization administrator"
+#~ msgstr "Tên của người quản lí tổ chức"
+
+#~ msgid "Your last name of the organization administrator"
+#~ msgstr "Họ của người quản lí tổ chức"
+
+#~ msgid "Their email address"
+#~ msgstr "Địa chỉ email của họ"
+
+#~ msgid "The timezone the organization is in"
+#~ msgstr "Tổ chức thuộc múi giờ"
+
+#~ msgid ""
+#~ "Their password, at least eight letters please. (leave blank for existing "
+#~ "users)"
+#~ msgstr ""
+#~ "Mật khẩu của họ, ít nhất tám ký tự. (để khoảng trống cho những người đang "
+#~ "sử dụng)"
+
+#~ msgid "The name of the new organization"
+#~ msgstr "Tên của tổ chức mới"
+
+#~ msgid "The initial number of credits granted to this organization."
+#~ msgstr "Số đầu tiên của thẻ tín dụng đã cấp cho tổ chức này"
+
+#~ msgid "User already exists, please do not include password."
+#~ msgstr "Người dùng đã tồn tại, vui lòng không để lại mật khẩu"
+
+#~ msgid "Password must be at least 8 characters long"
+#~ msgstr "Mật khẩu dài ít nhất 8 kí tự"
+
+#~ msgid "Your First Name (required)"
+#~ msgstr "Tên của bạn (bắt buộc)"
+
+#~ msgid "Your Last Name (required)"
+#~ msgstr "Họ của bạn (bắt buộc)"
+
+#~ msgid "Current Password (required)"
+#~ msgstr "Mật khẩu hiện tại (bắt buộc)"
+
+#~ msgid "New Password (optional)"
+#~ msgstr "Mật khẩu mới (tùy chọn)"
+
+#~ msgid "Website Language"
+#~ msgstr "Ngôn ngữ trang web"
+
+#~ msgid "Passwords must have at least 8 letters."
+#~ msgstr "Mật khẩu phải ít nhất 8 ký tự."
+
+#~ msgid "Please enter your password to save changes."
+#~ msgstr "Vui lòng nhập mật khẩu của bạn để lưu những thay đổi."
+
+#~ msgid "Sorry, that email address is already taken."
+#~ msgstr "Rất tiếc, địa chỉ email đó đã được sử dụng."
+
+#~ msgid "Start Call"
+#~ msgstr "Bắt đầu cuộc gọi"
+
+#~ msgid "Import successful"
+#~ msgstr "Nhập liệu thành công"
+
+#~ msgid "The import file"
+#~ msgstr "File xuất"
+
+#~ msgid "Update all flows and campaigns"
+#~ msgstr "Cập nhật tất cả các luồng dữ liệu và các chiến lược "
+
+#~ msgid "Sorry, import is a premium feature"
+#~ msgstr "Rất tiếc, nhập liệu là yếu tố ban đầu"
+
+#~ msgid ""
+#~ "This file is no longer valid. Please export a new version and try again."
+#~ msgstr ""
+#~ "Dữ liệu này không còn tồn tại. Vui lòng xuất một bản mới và thử lại "
+
+#~ msgid "Sorry, your import file is invalid."
+#~ msgstr "Rất tiếc, tệp dữ liệu của bạn không hợp lệ."
+
+#~ msgid "Your Twilio Account SID"
+#~ msgstr "Mã tài khoản Twilio của bạn"
+
+#~ msgid "Your Twilio Account Token"
+#~ msgstr "Mã tài khoản Twilio của bạn"
+
+#~ msgid "You must enter your Twilio Account SID"
+#~ msgstr "Bạn phải nhập tài khoản Twilio SID"
+
+#~ msgid "You must enter your Twilio Account Token"
+#~ msgstr "Bạn phải nhập mã tài khoản Twilio"
+
+#~ msgid ""
+#~ "The Twilio account SID and Token seem invalid. Please check them again "
+#~ "and retry."
+#~ msgstr ""
+#~ "Mã ID và mã tài khoản Twilio của bạn không đúng. Vui lòng kiểm tra và thử "
+#~ "lại."
+
+#~ msgid "Your Nexmo API key"
+#~ msgstr "API key tài khoản Nexmo của bạn"
+
+#~ msgid "Your Nexmo API secret"
+#~ msgstr "API secret trên tài khoản Nexmo của bạn "
+
+#~ msgid ""
+#~ "Your Nexmo API key and secret seem invalid. Please check them again and "
+#~ "retry."
+#~ msgstr ""
+#~ "API key và API secret tài khoàn Nexmo của bạn không hợp lệ. Vui lòng kiểm "
+#~ "tra và thử lại."
+
+#~ msgid "Invite people to your organization"
+#~ msgstr "Mời người khác tới tổ chức của bạn."
+
+#~ msgid "User group"
+#~ msgstr "Nhóm người dùng"
+
+#~ msgid "One of the emails you entered is invalid."
+#~ msgstr "Một trong những email bạn nhập không hợp lệ."
+
+#~ msgid "Manage %(name)s Accounts"
+#~ msgstr "Quản lý tài khoản %(name)s "
+
+#~ msgid "Select your Organization"
+#~ msgstr "Chọn tổ chức của bạn"
+
+#~ msgid ""
+#~ "Your account is not associated to an organization. Please create an "
+#~ "organization."
+#~ msgstr "Tài khoản của bạn chưa thuộc tổ chức nào. Vui lòng tạo một tổ chức."
+
+#~ msgid ""
+#~ "Your invitation link is invalid. Please contact your organization "
+#~ "administrator."
+#~ msgstr ""
+#~ "Đường dẫn cho lời mời của bạn không hợp lệ. Vui lòng liên hệ với quản trị "
+#~ "viên của tổ chức."
+
+#~ msgid "Join"
+#~ msgstr "Tham gia"
+
+#~ msgid ""
+#~ "Your invitation link has expired. Please contact your organization "
+#~ "administrator."
+#~ msgstr ""
+#~ "Đường dẫn lời mời của bạn đã hết hạn. Vui lòng liên hệ quản trị viên của "
+#~ "tổ chức."
+
+#~ msgid "Create Your Organization"
+#~ msgstr "Tạo tổ chức"
+
+#~ msgid "Create Organization Account"
+#~ msgstr "Tạo tài khoản tổ chức"
+
+#~ msgid "Sign Up"
+#~ msgstr "Đăng kí"
+
+#~ msgid "Save"
+#~ msgstr "lưu"
+
+#~ msgid "Webhook URL"
+#~ msgstr "Đường dẫn Webhook "
+
+#~ msgid "Incoming SMS"
+#~ msgstr "SMS đến"
+
+#~ msgid "Outgoing SMS"
+#~ msgstr "SMS đi"
+
+#~ msgid "Incoming Calls"
+#~ msgstr "Cuộc gọi đến"
+
+#~ msgid "Outgoing Calls"
+#~ msgstr "Cuộc gọi đi"
+
+#~ msgid "Channel Alarms"
+#~ msgstr "Tín hiệu báo động kênh"
+
+#~ msgid "Your Account"
+#~ msgstr "Tài khoản của bạn"
+
+#~ msgid "Logout"
+#~ msgstr "Đăng xuất"
+
+#~ msgid "Add Channel"
+#~ msgstr "Thêm kênh"
+
+#~ msgid "Import"
+#~ msgstr "Nhập"
+
+#~ msgid "Your organization's timezone"
+#~ msgstr "Múi giờ của tổ chức"
+
+#~ msgid "The slug, or short name for your organization"
+#~ msgstr "Tên viết tắt của tổ chức"
+
+#~ msgid "The country used for location values. (optional)"
+#~ msgstr "Quốc gia dùng trong thông tin địa điểm. (Tùy chọn)"
+
+#~ msgid "Primary Language"
+#~ msgstr "Ngôn ngữ chính"
+
+#~ msgid "Additional Languages"
+#~ msgstr "Ngôn ngữ phụ"
+
+#~ msgid "%s cannot be removed since it is the base language for %s"
+#~ msgstr "Không thể xóa %s do đó là ngôn ngữ nền tảng của %s"
+
+#~ msgid " and "
+#~ msgstr "và"
+
+#~ msgid "%s and %s"
+#~ msgstr "%s và %s"
+
+#~ msgid "%s credits have been added to your account. Thanks for your support!"
+#~ msgstr ""
+#~ "%s credits đã được thêm vào tài khoản của bạn. Cảm ơn bạn đã ủng hộ!"
+
+#~ msgid "Cleared %s cache for this organization (%d keys)"
+#~ msgstr "Đã xóa %s cache cho tổ chức (%d keys)"
+
+#~ msgid "Visually build interactive SMS applications anywhere in the world."
+#~ msgstr ""
+#~ "Xây dựng trực quan các ứng dụng SMS giàu tính tương tác mọi nơi trên thế "
+#~ "giới."
+
+#~ msgid ""
+#~ "Copyright &copy; 2012-2014 Nyaruka, Ltd. All Rights Reserved. Brought to "
+#~ "you in cooperation with UNICEF."
+#~ msgstr ""
+#~ "Bản quyền &copy; 2012-2014 Nyaruka, Ltd. Các quyền được bảo hộ. Mang đến "
+#~ "bạn với sự hợp tác từ UNICEF. "
+
+#~ msgid ""
+#~ "Copyright &copy; 2012-2014 Nyaruka, Ltd. All Rights Reserved. Powered by "
+#~ "<a href='http://textit.in'>TextIt</a>"
+#~ msgstr ""
+#~ "Bản quyền &copy; 2012-2014 Nyaruka, Ltd. Các quyền được bảo hộ. Xây dựng "
+#~ "trên <a href='http://textit.in'>TextIt</a>"
+
+#~ msgid ""
+#~ "\n"
+#~ "            %(brand)s API\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "%(brand)s API"
+
+#~ msgid ""
+#~ "\n"
+#~ "    %(brand)s - API Simulator\n"
+#~ "\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "%(brand)s - API mô phỏng"
+
+#~ msgid "Update Campaign"
+#~ msgstr "Nâng cấp chiến dịch"
+
+#~ msgid "Add Bulk Sender"
+#~ msgstr "Thêm người gửi hàng loạt"
+
+#~ msgid ""
+#~ "\n"
+#~ "            Bulk senders typically can send a higher volume of messages "
+#~ "and in some cases are even cheaper than\n"
+#~ "            local messaging rates. If you have an account with a bulk "
+#~ "sender, you can use your local Android phone\n"
+#~ "            number to receive messages, and use a bulk sender for your "
+#~ "outgoing messages.\n"
+#~ "\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "Người gửi hàng loạt cụ thể là có thể gửi một lượng lớn tin nhắn và trong "
+#~ "một số trường hợp thậm chí rẻ hơn\n"
+#~ "giá tin nhắn nội địa. Nếu bạn có một tài khoản với một tài khoản người "
+#~ "gửi hàng loạt, bạn có thể sử dụng số điện thoại Android địa phương của "
+#~ "bạn\n"
+#~ "để nhận tin nhắn, và sử dụng một tài khoản người gửi hàng loạt cho tin "
+#~ "nhắn đi của bạn"
+
+#~ msgid "Send with Nexmo"
+#~ msgstr "Gửi bằng Nexmo"
+
+#~ msgid "Connect Nexmo"
+#~ msgstr "Kết nối Nexmo"
+
+#~ msgid "Disconnect Nexmo"
+#~ msgstr "Ngưng kết nối"
+
+#~ msgid "Add a Channel"
+#~ msgstr "Thêm một kênh"
+
+#~ msgid "Update Contact"
+#~ msgstr "Cập nhật liên lạc"
+
+#~ msgid ""
+#~ "\n"
+#~ "        To get started you need to add a channel to your account. A "
+#~ "channel is a phone number or social network\n"
+#~ "        account which %(name)s can use to send and receive messages on "
+#~ "your behalf. You can choose to use an\n"
+#~ "        Android phone and your own cell phone plan, or we can connect you "
+#~ "with a service provider in your country\n"
+#~ "        directly.\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "Để bắt đầu bạn hãy cho biết phương tiện bạn dùng để cung cấp thông tin. "
+#~ "Phương tiện là số điện thoại hoặc mạng xã hội\n"
+#~ "tài khoản %(name)s có thể sử dụng để gửi hoặc nhận tin nhắn thay bạn. Bạn "
+#~ "có thể chọn sử dụng một\n"
+#~ "điện thoại Android và gói cước điện thoại của bạn , hoặc chúng tôi có thể "
+#~ "liên lạc với bạn qua một nhà cung cáp dịch vụ trong nước của bạn\n"
+#~ "trực tiếp."
+
+#~ msgid "You can always test your flow using the simulator, click"
+#~ msgstr ""
+#~ "Bạn có thể kiểm tra cấu trúc bài phỏng vấn bằng cách sử dụng công cụ giả "
+#~ "lập, nhấn"
+
+#~ msgid "on the right to open it."
+#~ msgstr "bên phải để mở công cụ."
+
+#~ msgid "Restart any of the above contacts already participating in this flow"
+#~ msgstr "Hãy khởi động lại những người đã tham gia vào cuộc phỏng vấn này."
+
+#~ msgid "No contacts have started this flow."
+#~ msgstr "Chưa có ai bắt đầu luồng này."
+
+#~ msgid "1 Contact"
+#~ msgstr "1 người"
+
+#~ msgid "has started this flow."
+#~ msgstr "đã bắt đầu cuộc phỏng vấn này."
+
+#~ msgid "{{ participant_count }} Contacts"
+#~ msgstr "{{ participant_count }} người"
+
+#~ msgid "have started this flow."
+#~ msgstr "đã bắt đầu cuộc phỏng vấn này."
+
+#~ msgid "It has been completed"
+#~ msgstr "Cuộc phỏng vấn đã được hoàn thành"
+
+#~ msgid "Once."
+#~ msgstr "một lần."
+
+#~ msgid "{{ complete_count }} times."
+#~ msgstr "{{ complete_count }} lần."
+
+#~ msgid "To make your next connection,"
+#~ msgstr "Để thực hiện kết nối tiếp theo,"
+
+#~ msgid "drag"
+#~ msgstr "hãy kéo"
+
+#~ msgid "the red box."
+#~ msgstr "hộp màu đỏ."
+
+#~ msgid "Run in"
+#~ msgstr "Chạy trong"
+
+#~ msgid "Simulator"
+#~ msgstr " công cụ giả lập"
+
+#~ msgid "Error Contacting Server. Changes may not be saved."
+#~ msgstr "Lỗi kết nối máy chủ. Tất cả thay đổi có thể chưa được lưu lại."
+
+#~ msgid "Let's get started"
+#~ msgstr "Hãy bắt đầu"
+
+#~ msgid "Receive a Message First"
+#~ msgstr "Hãy nhận một tin nhắn trước"
+
+#~ msgid "Call Webhook"
+#~ msgstr "Gọi Webhook"
+
+#~ msgid "Receive SMS"
+#~ msgstr "Nhận SMS"
+
+#~ msgid "Play Message"
+#~ msgstr "Chạy tin nhắn"
+
+#~ msgid "Start Another Flow"
+#~ msgstr "Bắt đầu một luồng khác"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Rule Variable"
+#~ msgstr "Biến luật"
+
+#~ msgid "Getting Started"
+#~ msgstr "Đang khởi động"
+
+#~ msgid "FLOWS"
+#~ msgstr "CÁC LUỒNG"
+
+#~ msgid ""
+#~ "\n"
+#~ "          Using a simple drag-and-drop interface, anybody can design a "
+#~ "custom SMS application\n"
+#~ "          that is tailored to their needs. Design a flow in minutes and "
+#~ "start getting responses\n"
+#~ "          instantly. Once people start interacting with your flow, use "
+#~ "real-time analytics to\n"
+#~ "          see how things are going.\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Bằng việc sử dụng giao diện kéo thả đơn giản, ai cũng có thể thiết kế một "
+#~ "ứng dụng SMS theo ý mình.\n"
+#~ "Thiêt kế một quy trình trong vài phút và bắt đầu nhận phản hồi ngay lập "
+#~ "tức. Một khi người dùng bắt đầu tương tác với quy trình của bạn, sử dụng "
+#~ "những phân tích thời gian thực để xem diễn biến của mọi thứ."
+
+#~ msgid "To learn more about flows, visit the"
+#~ msgstr "Để biết thêm về quy trình, ghé"
+
+#~ msgid "learning center"
+#~ msgstr "trung tâm thông tin"
+
+#~ msgid "View Sample Flows"
+#~ msgstr "Xem Quy Trình Mẫu"
+
+#~ msgid "How to Build Flows"
+#~ msgstr "Cách xây dựng Quy Trình"
+
+#~ msgid "GET CONNECTED"
+#~ msgstr "KẾT NỐI"
+
+#~ msgid ""
+#~ "\n"
+#~ "            No matter where you are in the world, it's easy to configure "
+#~ "%(name)s to work on real phones without delay.\n"
+#~ "            Whether you want to use a Twilio number, a direct connection "
+#~ "with your local carriers, or even the SIM card\n"
+#~ "            you already have, we've got you covered.\n"
+#~ "\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "Bất kể bạn ở đâu trên thế giới, rất dễ dàng để cấu hình %(name)s để làm "
+#~ "việc trên những chiếc điện thoại thật sự mà không chậm trễ.\n"
+#~ "Cho dù bạn muốn sử dụng một số Twilio, một kết nối trực tiếp với nhà mạng "
+#~ "địa phương, hay thậm chí thẻ SIM\n"
+#~ "mà bạn có, chúng tôi đã hỗ trợ bạn."
+
+#~ msgid ""
+#~ "\n"
+#~ "            You can also use our flow simulator if you don't want to "
+#~ "setup a number right away.\n"
+#~ "\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "Bạn cũng có thể sử dụng tính năng mô phỏng quy trình nếu bạn không muốn "
+#~ "thiết lập một số điện thoại ngay."
+
+#~ msgid "Add Number"
+#~ msgstr "Thêm Số Điện Thoại"
+
+#~ msgid "CONTACTS"
+#~ msgstr "DANH SÁCH LIÊN LẠC"
+
+#~ msgid ""
+#~ "\n"
+#~ "          Before you do anything else in %(name)s, it is helpful to have "
+#~ "a list of contacts. This will make it easy to send a message or survey "
+#~ "out\n"
+#~ "          to a wide distribution list.\n"
+#~ "\n"
+#~ "          For example, you might have groups\n"
+#~ "          called <i>Field Staff</i>, <i>Office Managers</i>, or "
+#~ "<i>Trainees</i>. You can import these groups into\n"
+#~ "          %(name)s by uploading an Excel file using our\n"
+#~ "          <a href='%(STATIC_URL)s/examples/contacts.xls'>\n"
+#~ "            template\n"
+#~ "          </a>\n"
+#~ "          as a guide. We'll create a group for you automatically for each "
+#~ "file you upload. Don't worry, it's easy to add or\n"
+#~ "          remove people from groups later if you need to tweak things.\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Trước khi bạn làm bất cứ điều gì khác trong %(name)s, bạn nên có một danh "
+#~ "sách liên lạc. Điều này sẽ giúp dễ gửi tin nhắn hoặc khảo sát trên diện "
+#~ "rộng.\n"
+#~ "\n"
+#~ "Chẳng hạn bạn có thể có những nhóm sau đây <Field Staff>, <i> Quản lý văn "
+#~ "phòng</i>, hoặc <i>Học viên</i>. Bạn có thể nhập những nhóm này vào\n"
+#~ "%(name)s bằng cách tải lên một tập tin Excel sử dụng <a "
+#~ "href='%(STATIC_URL)s/examples/contacts.xls'>mẫu</a>\n"
+#~ "của chúng tôi. Chúng tôi sẽ tự tạo một nhóm cho bạn với mỗi file bạn tải "
+#~ "lên. Đừng lo lắng, rất dễ dàng để thêm hoặc bớt người ra khỏi nhóm sau "
+#~ "này nếu bạn cần chỉnh sửa."
+
+#~ msgid ""
+#~ "\n"
+#~ "          If you want anybody to be able to join a group using SMS, you "
+#~ "can set a <i>join keyword</i>. Anybody who\n"
+#~ "          texts with that keyword will automatically be registered into "
+#~ "the group.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Nếu bạn muốn ai đó có thể tham giao vào nhóm bằng SMS, bạn có thể thiết "
+#~ "lập một <i>từ khóa tham gia</i>. Bất cứ ai gửi tin nhắn với từ khóa đó sẽ "
+#~ "được tự động đăng ký vào nhóm."
+
+#~ msgid ""
+#~ "\n"
+#~ "          If you use e-mail, reading and writing messages in %(name)s "
+#~ "should already be familiar to you. Just like e-mail, you have an Inbox "
+#~ "and it's easy to label\n"
+#~ "          messages so you can follow up with them later. %(name)s also "
+#~ "allows you to schedule a message to be sent later or even as a reminder\n"
+#~ "          on a regular schedule.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Nếu bạn sử dụng e-mail, thì bạn đã quen với việc đọc và viết tin nhắn "
+#~ "trong %(name)s. Cũng như e-mail, bạn có một hộp thư đến và dễ dàng gắn "
+#~ "nhãn\n"
+#~ "tin nhắn để bạn có thể theo dõi sau này. %(name)s cũng có thể cho phép "
+#~ "bạn lên lịch gửi tin nhắn sau hoặc nhắc nhở định kỳ."
+
+#~ msgid ""
+#~ "\n"
+#~ "          For example you might have %(name)s send a message every Friday "
+#~ "reminding people in the <i>Field Staff</i> group to complete their weekly "
+#~ "report.\n"
+#~ "          If anybody joins the <i>Field Staff</i> group later, they will "
+#~ "automatically start receiving the weekly reminder.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Ví dụ bạn có %(name)s gửi một tin nhắn mỗi thứ sáu hàng tuần nhắc nhở mọi "
+#~ "người trong nhóm <Field Staff> hoàn tất báo cáo tuần.\n"
+#~ "Nếu ai đó tham gia vào nhóm <Field Staff> sau, họ sẽ bắt đầu tự động nhận "
+#~ "được nhắc nhở hàng tuần."
+
+#~ msgid "ACCOUNT"
+#~ msgstr "Tài khoản"
+
+#~ msgid "Visit your account page to add credits at any time"
+#~ msgstr "Xem trang tài khoản để thêm tài chính bất cứ lúc nào"
+
+#~ msgid ""
+#~ "\n"
+#~ "          %(name)s also offers a robust REST API to add SMS features to "
+#~ "your own website. Have a look through the\n"
+#~ "          <a href='%(api_url)s'>\n"
+#~ "            API documentation\n"
+#~ "          </a>\n"
+#~ "          to learn more.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "%(name)s cũng đưa ra một REST API mạnh mẽ đễ cho tính năng tin nhắn vào "
+#~ "website của bạn. Xem qua <a href='%(api_url)s'> tài liệu API  </a> để tìm "
+#~ "hiểu nhiều hơn."
+
+#~ msgid "Add Web Hook"
+#~ msgstr "Thêm Web hook"
+
+#~ msgid "API Documentation"
+#~ msgstr "Tài liệu API"
+
+#~ msgid "Create a Flow"
+#~ msgstr "Tạo một chuỗi"
+
+#~ msgid ""
+#~ "\n"
+#~ "    Learn %(brand)s - SMS Application Videos and Tutorials\n"
+#~ "\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "Tìm hiểu về %(brand)s - Các video ứng dụng SMS và hướng dẫn"
+
+#~ msgid ""
+#~ "\n"
+#~ "    Start building SMS applications by watching these short two minutes "
+#~ "videos on various %(brand)s features.\n"
+#~ "\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "Bắt đầu xây dựng các ứng dụng SMS bằng cách theo dõi các video với thời "
+#~ "lượng 2 phút với nhiều tính năng %(brand)s khác nhau."
+
+#~ msgid "Mastering Flows"
+#~ msgstr "Thành thạo chuỗi"
+
+#~ msgid "Add Video"
+#~ msgstr "Thêm video"
+
+#~ msgid ""
+#~ "\n"
+#~ "      To make sure you get the most out of %(brand)s, we've put together "
+#~ "a bunch of short videos to guide you through\n"
+#~ "      some of the most powerful features. Each of these videos are only a "
+#~ "couple minutes, but they will help you\n"
+#~ "      build complex flows without a lot of effort.\n"
+#~ "\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Để đảm bảo bạn nhận được %(brand)s tốt nhất, chúng tôi đã kết hợp các "
+#~ "video ngắn để hướng dẫn bạn nắm được các tính năng mạnh mẽ nhất. Mỗi "
+#~ "video này chỉ dài vài phút nhưng sẽ giúp bạn dựng các chuỗi phức tạp một "
+#~ "cách đơn giản. "
+
+#~ msgid ""
+#~ "\n"
+#~ "      You don't have to, but it's best if these are watched in order "
+#~ "since they build on each other as you go.\n"
+#~ "\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Bạn không nhất thiết, tuy nhiên tốt nhất là theo dõi các chuỗi này theo "
+#~ "trình tự vì chúng được dựng với nhau khi bạn thực hiện."
+
+#~ msgid "More"
+#~ msgstr "Thêm"
+
+#~ msgid ""
+#~ "\n"
+#~ "    Learn - %(video_name)s\n"
+#~ "\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "Tìm hiểu - %(video_name)s"
+
+#~ msgid "More Videos"
+#~ msgstr "Thêm các Video"
+
+#~ msgid "Trigger a Flow"
+#~ msgstr "Trigger một chuỗi"
+
+#~ msgid ""
+#~ "\n"
+#~ "        Triggers let users initiate flows by sending in a message. You "
+#~ "can configure triggers to start flows based on keywords\n"
+#~ "        users send.  A keyword is the first word in a message, think of "
+#~ "it as a command name for the message.\n"
+#~ "\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "Trigger cho phép người dùng khởi chạy các chuỗi bằng cách gửi tin nhắn. "
+#~ "Bạn có thể định cấu hình các trigger để bắt đầu chuỗi dựa trên các từ "
+#~ "khóa người dùng gửi đi. Từ khóa là từ đầu tiên trong một tin nhắn, như "
+#~ "một tên lệnh cho tin nhắn đó."
+
+#~ msgid "You can configure triggers to start flows or add contacts to groups."
+#~ msgstr ""
+#~ "Bạn có thể định cấu hình trigger để bắt đầu chuỗi hoặc thêm liên lạc vào "
+#~ "nhóm."
+
+#~ msgid "Start a flow after receiving a message not handled elsewhere."
+#~ msgstr "Bắt đầu một chuỗi sau khi nhận được tin nhắn chưa được xử lý."
+
+#~ msgid "Flow to start"
+#~ msgstr "Chuỗi để bắt đầu"
+
+#~ msgid ""
+#~ "Triggers allow users to start flows based on user actions or schedules."
+#~ msgstr ""
+#~ "Trigger cho phép người dùng bắt đầu một chuỗi dựa trên các lịch trình "
+#~ "hoặc hành động của người dùng."
+
+#~ msgid "Start a flow after being followed by a new contact."
+#~ msgstr "Bắt đầu một chuỗi sau khi một liên lạc mới theo dõi."
+
+#~ msgid "Social media channel"
+#~ msgstr "Kênh truyền thông xã hội"
+
+#~ msgid "Start a flow after receiving a call."
+#~ msgstr "Bắt đầu một chuỗi sau khi nhận cuộc gọi."
+
+#~ msgid "Create a message keyword that launches a flow."
+#~ msgstr "Tạo một từ khóa tin nhắn kích hoạt chuỗi."
+
+#~ msgid "The keyword"
+#~ msgstr "Từ khóa"
+
+#~ msgid "missed call"
+#~ msgstr "cuộc gọi nhỡ"
+
+#~ msgid "uncaught message"
+#~ msgstr "tin nhắn chưa nhận được"
+
+#~ msgid "inbound call"
+#~ msgstr "cuộc gọi nội địa"
+
+#~ msgid "follow"
+#~ msgstr "theo dõi"
+
+#~ msgid "The"
+#~ msgstr "một"
+
+#~ msgid "starts the"
+#~ msgstr "Bắt đầu"
+
+#~ msgid "flow"
+#~ msgstr "chuỗi"
+
+#~ msgid "will start in"
+#~ msgstr "sẽ bắt đầu trong"
+
+#~ msgid "is"
+#~ msgstr "là"
+
+#~ msgid "not scheduled"
+#~ msgstr "Chưa được đặt lịch"
+
+#~ msgid "No matching triggers."
+#~ msgstr "Không có trigger trùng."
+
+#~ msgid "Update Trigger"
+#~ msgstr "Cập nhật trigger"
+
+#~ msgid "Start a flow after a missed call."
+#~ msgstr "Bắt đầu một chuỗi mới sau một cuộc gọi nhỡ."
+
+#~ msgid "Group to join"
+#~ msgstr "Nhóm để tham gia"
+
+#~ msgid "Add Group: "
+#~ msgstr "Thêm nhóm:"
+
+#~ msgid "Create a message keyword that allows people to join a group."
+#~ msgstr "Tạo một từ khóa tin nhắn cho phép mọi người tham gia nhóm."
+
+#~ msgid "Select a date"
+#~ msgstr "Chọn một ngày"
+
+#~ msgid "Start a flow in the future or on a schedule."
+#~ msgstr "Bắt đầu một chuỗi mới sau này hoặc theo lịch trình."
+
+#~ msgid ""
+#~ "Missed call trigger activated. Change flow that starts on missed call."
+#~ msgstr ""
+#~ "Trigger cuộc gọi nhỡ được kích hoạt. Thay đổi chuỗi bắt đầu cuộc gọi nhỡ."
+
+#~ msgid "Catch all trigger activated. Change flow that catches all messages."
+#~ msgstr "Kích hoạt tất cả trigger. Thay đổi chuỗi nhận được các tin nhắn."
+
+#~ msgid ""
+#~ "\n"
+#~ "          The next message will be sent <span class='attn next-fire'/>.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Tin nhắn tiếp theo sẽ được gửi <span class='attn next-fire'/>."
+
+#~ msgid "It will repeat every"
+#~ msgstr "Nó sẽ lặp lại mỗi"
+
+#~ msgid "at around the same time."
+#~ msgstr "vào cùng một thời điểm"
+
+#~ msgid "month"
+#~ msgstr "tháng"
+
+#~ msgid ""
+#~ "\n"
+#~ "          on the %(repeat_day_of_month)s\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "trong %(repeat_day_of_month)s"
+
+#~ msgid ""
+#~ "\n"
+#~ "          It will repeat <span class='attn'>%(repeat_period_display)s</"
+#~ "span> at around the same time.\n"
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "Nó sẽ lặp lại <span class='attn'>%(repeat_period_display)s</span> cùng "
+#~ "một thời điểm"
+
+#~ msgid ""
+#~ "\n"
+#~ "        It will <span class='attn'>not repeat</span>.\n"
+#~ "\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "Nó sẽ <span class='attn'>không lặp lại</span>"
+
+#~ msgid "Choose when you would like the flow to start."
+#~ msgstr "Chọn thời điểm bạn muốn bắt đầu sơ đồ."

@@ -5,6 +5,7 @@ from hamlpy import templatize
 # Default to debugging
 #-----------------------------------------------------------------------------------
 DEBUG = True
+#DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 #-----------------------------------------------------------------------------------
@@ -958,6 +959,8 @@ BROKER_TRANSPORT_OPTIONS = {'socket_timeout': 5}
 CELERY_RESULT_BACKEND = BROKER_URL
 
 IS_PROD = False
+# tmhoang
+#IS_PROD = True
 HOSTNAME = "localhost"
 
 # The URL and port of the proxy server to use when needed (if any, in requests format)
@@ -1025,21 +1028,22 @@ MAGE_AUTH_TOKEN = '___MAGE_TOKEN_YOU_PICK__'
 # RapidPro configuration settings
 #-----------------------------------------------------------------------------------
 
+# tmh
 ######
 # DANGER: only turn this on if you know what you are doing!
 #         could cause messages to be sent to live customer aggregators
-SEND_MESSAGES = False
-
+#SEND_MESSAGES = False
+SEND_MESSAGES = True
 ######
 # DANGER: only turn this on if you know what you are doing!
 #         could cause external APIs to be called in test environment
-SEND_WEBHOOKS = False
-
+#SEND_WEBHOOKS = False
+SEND_WEBHOOKS = True
 ######
 # DANGER: only turn this on if you know what you are doing!
 #         could cause emails to be sent in test environment
-SEND_EMAILS = False
-
+#SEND_EMAILS = False
+SEND_EMAILS = True
 MESSAGE_HANDLERS = ['temba.triggers.handlers.TriggerHandler',
                     'temba.flows.handlers.FlowHandler',
                     'temba.triggers.handlers.CatchAllHandler']
